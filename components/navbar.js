@@ -4,13 +4,13 @@ export const navbar = () => {
             <div class="n-imageDiv"><a href=""><img id="n-logo" src="https://unbounce.com/wp-content/themes/unbounce2019/assets/img/unbounce-icon.svg?v=1" alt=""></a></div>
             <div class="n-products">
                 <a href="">
-                    <div>Products</div>
+                    <div class="n-products_click" >Products</div>
                     <div><i class="fa-solid fa-angle-down"></i></div>
                 </a>
             </div>
             <div class="n-solutions">
                 <a href="">
-                    <div>Solutions</div>
+                    <div class="n-solutions_click">Solutions</div>
                     <div><i class="fa-solid fa-angle-down"></i></div>
                 </a>
             </div>
@@ -19,7 +19,7 @@ export const navbar = () => {
             </div>
             <div class="n-learn">
                 <a href="">
-                    <div>Learn</div>
+                    <div class="n-learn_click">Learn</div>
                     <div><i class="fa-solid fa-angle-down"></i></div>
                 </a>
             </div>
@@ -44,7 +44,7 @@ export const navbar = () => {
                 <div>
                     <div class="small_screen_search"><i class="fa-solid fa-magnifying-glass"></i></div>
                     <div class="n-menu">
-                        <div>
+                        <div id="n-menu_click">
                             <div class="menudiv"></div>
                             <div class="menudiv"></div>
                             <div class="menudiv"></div>
