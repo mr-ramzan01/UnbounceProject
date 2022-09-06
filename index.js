@@ -181,7 +181,6 @@ window.onscroll = function() {
 }
 
 
-
 document.querySelector(".n-products_click").addEventListener("click",() => {
     event.preventDefault();
     if(true) {
@@ -282,3 +281,32 @@ for(let i=0; i<backArrow.length; i++) {
         document.querySelector(".s_s_showing_solutions ").style.display = "none"
     })
 }
+
+
+
+let animatedArr= ["./images/animationImage1.png","./images/animationImage2.png","./images/animationImage3.png"]
+
+let stopAnimation = () => {
+    let stop = setInterval(() => {
+    let image = document.getElementById("animatedImage");
+        image.src = animatedArr[1];
+        clearInterval(stop);
+},2500)
+
+}
+
+stopAnimation();
+let pointer = 2;
+
+setTimeout(() => {
+    setInterval(() => {
+        let image = document.getElementById("animatedImage");
+        if(pointer == 3) {
+            pointer = 0;
+        }
+        console.log(2);
+        image.src = animatedArr[pointer];
+        pointer++;
+    
+    },5000)
+},2500)

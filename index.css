@@ -29,7 +29,9 @@
 }
 .navbar > div > div {
     /* border: 1px solid green; */
-    /* width: 100%; */
+    /* height: 100px;
+    display: grid;
+    place-content: center; */
     /* padding: 20px 0; */
 }
 .n-imageDiv {
@@ -999,6 +1001,27 @@
 
 
 
+.animation_div {
+    /* border: 1px solid red; */
+    height: 60vh;
+}
+.animation_div > div {
+    /* border: 1px solid blue; */
+    margin: 0 5%;
+    animation: rotation 10s linear infinite;
+    height: 100%;
+}
+.animation_div img {
+    width: 50%;
+    margin-left: 25%;
+    height: 100%;
+
+}
+
+
+
+
+
 
 #menudiv_options {
     /* height: 400px; */
@@ -1095,6 +1118,18 @@
 }
 
 
+
+
+
+
+@keyframes rotation{
+    from{
+        transform: rotateY(0deg)
+    }
+    to{
+        transform: rotateY(360deg)
+    }
+}
 @media screen and (min-width: 0px) and (max-width: 1023px) {
     .n-products, .n-solutions,.n-pricing,.n-learn,.n-contact,.n-login,.n-searchDiv,.n-freeTrial {
         display: none;
@@ -1212,6 +1247,12 @@
     .bLPFWA_div3 h1 {
         font-size: 35px;
     }
+    .animation_div img {
+        width: 90%;
+        margin-left: 5%;
+        height: 80%;
+    
+    }
     
 }
 @media screen and (min-width: 856px) and (max-width: 960px) {
@@ -1271,5 +1312,11 @@
     }
     .bLPFWA_div3 h1 {
         font-size: 45px;
+    }
+    .animation_div img {
+        width: 90%;
+        margin-left: 5%;
+        height: 100%;
+    
     }
 }
