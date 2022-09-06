@@ -1,0 +1,328 @@
+{
+  "Templates": [
+    {
+      "id": 1,
+      "Template_title": "O-SaaS",
+      "template_image": "https://unbounce.com/photos/O-Saas-272x253.jpg",
+      "Template_description": "A theme that’s designed to show off your SaaS product. There’s plenty of contrast, space for key benefits, a pricing grid, and more.",
+      "category": "landing page",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/o-saas/"
+    },
+    {
+      "id": 2,
+      "Template_title": "O-Consultancy",
+      "template_image": "https://unbounce.com/photos/O-Consultancy-272x253.jpg",
+      "Template_description": "Perfect for consulting businesses, this lead gen page includes a longer form for capturing detailed info from your prospects.",
+      "category": "landing page",
+      "type": "consulting",
+      "iframe_src": "https://templates.unbounce.com/o-consultancy/"
+    },
+    {
+      "id": 3,
+      "Template_title": "O-Book",
+      "template_image": "https://unbounce.com/photos/O-Book--272x253.jpg",
+      "Template_description": "Create a high-converting home for your next ebook with this bold theme. Offer your visitors a sneak peek at what’s inside and close.",
+      "category": "landing page",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/o-book/"
+    },
+    {
+      "Template_title": "O-Coming Soon",
+      "template_image": "https://unbounce.com/photos/O-Soon-272x253.jpg",
+      "Template_description": "Need to build excitement for a new product or service? With this simple template, you can get your landing page live in minutes.",
+      "category": "landing page",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/o-coming-soon/",
+      "id": 4
+    },
+    {
+      "Template_title": "Multor",
+      "template_image": "https://unbounce.com/photos/Thumbnail-272x254.jpg",
+      "Template_description": "Schedule more virtual appointments, online classes, and video consultations with this high-converting lead capture template.",
+      "category": "landing page",
+      "type": "health",
+      "iframe_src": "https://templates.unbounce.com/multor/",
+      "id": 5
+    },
+    {
+      "Template_title": "HORIZONS",
+      "template_image": "https://unbounce.com/photos/Thumbnail-2-272x254.jpg",
+      "Template_description": "This quick-start template is great for capturing leads with any offer, whether it’s a webinar, ebook, or promotional coupon.",
+      "category": "Featured",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/horizons/",
+      "id": 6
+    },
+    {
+      "Template_title": "Freshgoods",
+      "template_image": "https://unbounce.com/photos/Thumbnail-1-272x254.jpg",
+      "Template_description": "Get your business online fast with this simple storefront designed for small retailers, restaurants, breweries, and more.",
+      "category": "Featured",
+      "type": "Restaurant",
+      "iframe_src": "https://templates.unbounce.com/FRESHGOODS/",
+      "id": 7
+    },
+    {
+      "Template_title": "Getting Started",
+      "template_image": "https://unbounce.com/photos/O-Click-Through-272x253.jpg",
+      "Template_description": "Get straight to the point with a prominent headline and image/video, then dive into your benefits.",
+      "category": "landing page",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/getting-started-click-through",
+      "id": 8
+    },
+    {
+      "Template_title": "Product Launch",
+      "template_image": "https://unbounce.com/photos/O-Product-Launch-272x253.jpg",
+      "Template_description": "Confidently showcase your new product within this bright, comprehensive layout. Includes pricing.",
+      "category": "landing page",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/getting-started-product-launch/",
+      "id": 9
+    },
+    {
+      "Template_title": "Lead Generation",
+      "template_image": "https://unbounce.com/photos/O-Lead-Generation-272x253.jpg",
+      "Template_description": "A simple lead-capture page with clearly laid-out sections for benefits, and even a customizable.",
+      "category": "landing page",
+      "type": "consulting",
+      "iframe_src": "https://templates.unbounce.com/getting-started-lead-generation/",
+      "id": 10
+    },
+    {
+      "Template_title": "Referral Welcome",
+      "template_image": "https://unbounce.com/photos/Referral-Welcome-272x254.jpg",
+      "Template_description": "Want to make contact? Use this popup to invite your visitors to get in touch directly.",
+      "category": "Popups",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/referral-welcome/",
+      "id": 11
+    },
+    {
+      "Template_title": "Location Selector",
+      "template_image": "https://unbounce.com/photos/Location-Selector--272x253.jpg",
+      "Template_description": "Point your visitors to a custom site based on where they’re from. (Pro-tip: more).",
+      "category": "Sticky Bars",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/location-selector",
+      "id": 12
+    },
+    {
+      "Template_title": "Discount Code",
+      "template_image": "https://unbounce.com/photos/Discount-Code-272x254.jpg",
+      "Template_description": "Offer your visitors a discount code to encourage them to bring out the credit card.",
+      "category": "Popups",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/discount-code/",
+      "id": 13
+    },
+    {
+      "Template_title": "Produkto",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-produkto-272x253-lores-272x253.jpg",
+      "Template_description": "A detailed click-through page for promoting any physical or digital product.",
+      "category": "landing page",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/produkto/",
+      "id": 14
+    },
+    {
+      "Template_title": "Flora",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-flora-272x253-lores-272x253.jpg",
+      "Template_description": "Flora is ideal for ‘urban’ delivery services or one-off boutiques. This elegant.",
+      "category": "landing page",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/flora/",
+      "id": 15
+    },
+    {
+      "Template_title": "Coser",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-coser-272x253-lores-272x253.jpg",
+      "Template_description": "A simple click-through page that works for any product or service.",
+      "category": "landing page",
+      "type": "Ecommerce",
+      "iframe_src": "https://templates.unbounce.com/coser/",
+      "id": 16
+    },
+    {
+      "Template_title": "New Collection",
+      "template_image": "https://unbounce.com/photos/New-Collection--272x253.jpg",
+      "Template_description": "Every new product deserves a sticky bar letting your visitors know to check it out.",
+      "category": "Sticky Bars",
+      "type": "Ecommerce",
+      "iframe_src": "https://templates.unbounce.com/new-collection",
+      "id": 17
+    },
+    {
+      "Template_title": "Set a Reminder",
+      "template_image": "https://unbounce.com/photos/Set-a-Reminder--272x253.jpg",
+      "Template_description": "Sometimes, people just need a little time. Give your prospects the option of saving.",
+      "category": "Sticky Bars",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/set-a-reminder",
+      "id": 18
+    },
+    {
+      "Template_title": "SaaS Flash Sale",
+      "template_image": "https://unbounce.com/photos/saas-flash-sale-272x254.jpg",
+      "Template_description": "Who doesn’t love a good flash sale? Make sure that your visitors don’t miss your limited-time.",
+      "category": "Popups",
+      "type": "Restaurant",
+      "iframe_src": "https://templates.unbounce.com/saas-flash-sale/",
+      "id": 19
+    },
+    {
+      "Template_title": "Instagram Contest",
+      "template_image": "https://unbounce.com/photos/Instagram-Contest--272x253.jpg",
+      "Template_description": "Everybody loves Instagram contests. Get people submitting and hashtagging with this sticky bar.",
+      "category": "Sticky Bars",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/instagram-contest",
+      "id": 20
+    },
+    {
+      "Template_title": "Brochure Download",
+      "template_image": "https://unbounce.com/photos/Brochure-Download--272x253.jpg",
+      "Template_description": "Have some good lead gen content like a brochure? Use this sticky bar to offer your brochure free.",
+      "category": "Sticky Bars",
+      "type": "Ecommerce",
+      "iframe_src": "https://templates.unbounce.com/brochure-download",
+      "id": 21
+    },
+    {
+      "Template_title": "Local Event",
+      "template_image": "https://unbounce.com/photos/Local-Event-Registration--272x253.jpg",
+      "Template_description": "Whether it’s a concert or a party, your local event could be getting a lot more attendees with this sticky bar.",
+      "category": "Sticky Bars",
+      "type": "Ecommerce",
+      "iframe_src": "https://templates.unbounce.com/local-event-registration/",
+      "id": 22
+    },
+    {
+      "Template_title": "Email Discount",
+      "template_image": "https://unbounce.com/photos/Email-Discount--272x253.jpg",
+      "Template_description": "Offer your visitors a good incentive for giving you their email addresses. (Discounts are always nice.)",
+      "category": "Sticky Bars",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/email-discount",
+      "id": 23
+    },
+    {
+      "Template_title": "Add to Calendar",
+      "template_image": "https://unbounce.com/photos/Add-to-Calendar--272x253.jpg",
+      "Template_description": "People have crazy schedules. This handy sticky bar reminds your visitors to add your event.",
+      "category": "Sticky Bars",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/add-to-calendar",
+      "id": 24
+    },
+    {
+      "Template_title": "Early Bird Tickets",
+      "template_image": "https://unbounce.com/photos/Early-Bird-Tickets--272x253.jpg",
+      "Template_description": "Let the world know to get in on your early bird deal with this sticky bar.",
+      "category": "Sticky Bars",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/early-bird-tickets",
+      "id": 25
+    },
+    {
+      "Template_title": "Announcement",
+      "template_image": "https://unbounce.com/photos/Product-Announcement--272x253.jpg",
+      "Template_description": "Does your new product or feature need a little love?",
+      "category": "Sticky Bars",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/product-announcement",
+      "id": 26
+    },
+    {
+      "Template_title": "Website Survey",
+      "template_image": "https://unbounce.com/photos/Website-survey-272x254.jpg",
+      "Template_description": "To promote a survey on your page, use this popup to allow your visitors to click through and offer feedback.",
+      "category": "Popups",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/website-survey/",
+      "id": 27
+    },
+    {
+      "Template_title": "Cookie Notification",
+      "template_image": "https://unbounce.com/photos/Cookie-Notification--272x253.jpg",
+      "Template_description": "Does your website use cookies? Might be a good idea to be transparent and let your visitors know.",
+      "category": "Sticky Bars",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/cookie-notification",
+      "id": 28
+    },
+    {
+      "Template_title": "Flash Sale",
+      "template_image": "https://unbounce.com/photos/Flash-Sale--272x253.jpg",
+      "Template_description": "Who doesn’t love a good flash sale? Make sure that your visitors don’t miss your limited.",
+      "category": "Sticky Bars",
+      "type": "Ecommerce",
+      "iframe_src": "https://templates.unbounce.com/flash-sale",
+      "id": 29
+    },
+    {
+      "Template_title": "Beta Signup",
+      "template_image": "https://unbounce.com/photos/Beta-Signup--272x253.jpg",
+      "Template_description": "Build buzz with a waitlist or beta group for your product or offering so you can launch with a bang.",
+      "category": "Sticky Bars",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/beta-signup",
+      "id": 30
+    },
+    {
+      "Template_title": "Trending Content",
+      "template_image": "https://unbounce.com/photos/Trending-Content--272x253.jpg",
+      "Template_description": "Funnel your traffic effectively and promote popular content.",
+      "category": "Sticky Bars",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/trending-content",
+      "id": 31
+    },
+    {
+      "Template_title": "Event Registration",
+      "template_image": "https://unbounce.com/photos/Event-Registration--272x253.jpg",
+      "Template_description": "Make it easy for potential attendees to sign up for your event with this attention-focusing sticky bar.",
+      "category": "Sticky Bars",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/event-registration",
+      "id": 32
+    },
+    {
+      "Template_title": "Instant Discount",
+      "template_image": "https://unbounce.com/photos/Instant-Discount--272x253.jpg",
+      "Template_description": "Make your discount offer even sweeter by not requiring an email address.",
+      "category": "Sticky Bars",
+      "type": "Ecommerce",
+      "iframe_src": "https://templates.unbounce.com/instant-discount",
+      "id": 33
+    },
+    {
+      "Template_title": "Localized Offer",
+      "template_image": "https://unbounce.com/photos/localized-offer-272x254.jpg",
+      "Template_description": "Give your prospects more personalized, region-specific offers. personalization can increase conversions.",
+      "category": "Popups",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/localized-offer/",
+      "id": 34
+    },
+    {
+      "Template_title": "Get a Callback",
+      "template_image": "https://unbounce.com/photos/Get-a-Callback--272x253.jpg",
+      "Template_description": "Want to make contact? Use this sticky bar to invite your visitors to get a call from your team.",
+      "category": "Sticky Bars",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/get-a-callback",
+      "id": 35
+    },
+    {
+      "Template_title": "Ebook Download",
+      "template_image": "https://unbounce.com/photos/Ebook-downlaod-272x254.jpg",
+      "Template_description": "Focus attention on your ebook content with this minimalist popup.",
+      "category": "Popups",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/ebook-download/",
+      "id": 36
+    }
+  ]
+}

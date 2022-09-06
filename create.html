@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docu</title>
+    <style>
+        #AddItem{  
+    border: 1px solid red;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px 2px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+input:focus{
+    outline: none;
+    border: 2px solid skyblue;
+}
+
+
+#addbtn{
+    border: 0;
+    padding: 5px 20px;
+    display: block;
+    margin: auto;
+    background-color: brown;
+    border-radius: 5px;
+    color: beige;
+    cursor: pointer;
+}
+
+#addbtn:hover{
+    background-color: rgb(174, 81, 81);
+}
+
+    </style>
+</head>
+<body>
+    <div id="AddItem">
+        <h1>Enter Details</h1>
+        <input type="text" name="" id="name" placeholder="Enter Product Name">
+        <input type="text" id="img" placeholder="Enter Product Image Url">
+         <textarea name="" id="desc" cols="30" rows="10" placeholder="Enter Product Description"></textarea>
+         <input type="text" id="category" placeholder="Enter Product Category">
+         <input type="text" name="" id="type" placeholder="Enter Product Type">
+         <input type="text" name="" id="iframe_src" placeholder="Enter Product iframe_src Source">
+     <button id="addbtn">ADD</button>
+     </div>
+</body>
+</html>
+<script type="module">
+
+let addbtn = document.getElementById("addbtn");
+
+addbtn.onclick = async () =>{
+    let obj = {
+        "Template_title": document.getElementById("name").value,
+        "template_image": document.getElementById("img").value,       
+        "Template_description": document.getElementById("desc").value,
+        "category":document.getElementById("category").value,
+        "type":document.getElementById("type").value,
+        "iframe_src":document.getElementById("iframe_src").value,
+    }
+    let res = await fetch(`http://localhost:8001/Templates`,{
+        method: "POST",
+        body: JSON.stringify(obj),
+        headers: {
+            "Content-Type" : 'application/json',
+        }
+    })
+
+}
+
+
+
+</script>
+<!-- "id": 2,
+"Template_title": "O-Consultancy",
+"template_image": "https://unbounce.com/photos/O-Consultancy-272x253.jpg",
+"Template_description": "Perfect for consulting businesses, this lead gen page includes a longer form for capturing detailed info from your prospects.",
+"category": "landing page",
+"type": "consulting",
+"iframe_src":"https://templates.unbounce.com/o-consultancy/" -->
