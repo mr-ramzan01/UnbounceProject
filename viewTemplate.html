@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Page</title>
+    <script src="https://kit.fontawesome.com/a2c7043569.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./TemplateCss/template.css">
+    <style>
+        #BackToTemplate{
+            margin-top: 100px;
+            margin-left: 50px;
+           border: 0;
+           background-color: none;
+          
+           font-family: 'source sance pro',sans-serif;
+            font-weight: 500;
+              color:  #788389 ;
+              cursor: pointer;
+              background: none;
+              /* line-height: 20px; */
+        }
+        #BackToTemplate:hover{
+            color: rgb(89, 89, 162);
+        }
+        #TemplateDetails{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #h1Temp{
+            font-family: 'barlow semi condensed',sans-serif;
+            font-weight: 100;
+            line-height: 20px;
+            color: #3f3f3f;
+            text-transform: capitalize;
+        }
+        #h1Temp+div{
+            font-family: 'source sance pro',sans-serif;
+            width: 60%;
+            color: #646464;
+        }
+        #h1cat{
+            font-family: 'barlow semi condensed',sans-serif;
+            font-weight: 100;
+            color:#3f3f3f;
+        }
+        #h1cat+div{
+            font-family: 'source sance pro',sans-serif;
+            /* line-height: 10px; */
+            color: #646464;
+        }
+        #makeityours{
+            display: block;
+            margin: auto;
+            margin-top: 45px;
+            /* margin-left:175px; */
+            background-color: #f6921e ;
+            padding: 15px 27px;
+            color: white;
+            cursor: pointer;
+            font-weight:550;
+            font-size: 17px;
+            border: none;
+            font-family: 'source sance pro',sans-serif;
+            transition: all 0.1s;
+        }
+        #makeityours:hover{
+            background-color:#cb7f29  ;
+            margin-top: 42px;
+        }
+        #content{
+            overflow: hidden;
+            overflow-y: hidden;
+        }
+        #frame{
+            margin-top: 40px;
+            /* height: 100%; */
+            height: 4000px;
+            max-height: none;
+            width: 100%;
+            /* overflow-y: scroll;
+            overflow-y: hidden; */
+            box-sizing: content-box;
+        
+        }
+        ::-webkit-scrollbar {
+    display: none;
+}
+
+/* @media screen and (min-width: 480px) and (max-width:767px){
+    
+} */
+    </style>
+</head>
+<body>
+    <div id="navbar-Div">
+
+    </div>
+    
+    <button id="BackToTemplate"><i class="fa-solid fa-chevron-left"></i> &nbsp; BACK TO TEMPLATE</button>
+
+    <div id="TemplateDetails">
+    
+    </div>
+
+     <button id="makeityours">MAKE IT YOURS</button>
+     
+    <div id="content">
+        <iframe id="frame" src="" width="100%"></iframe>
+    </div>
+
+
+</body>
+</html>
+<script src="./viewTemplate.js" type="module">
+   
+</script>

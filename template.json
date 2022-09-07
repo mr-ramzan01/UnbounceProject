@@ -238,7 +238,7 @@
       "Template_title": "Website Survey",
       "template_image": "https://unbounce.com/photos/Website-survey-272x254.jpg",
       "Template_description": "To promote a survey on your page, use this popup to allow your visitors to click through and offer feedback.",
-      "category": "Popups",
+      "category": "Ecommerce",
       "type": "Agency",
       "iframe_src": "https://templates.unbounce.com/website-survey/",
       "id": 27
@@ -256,8 +256,8 @@
       "Template_title": "Flash Sale",
       "template_image": "https://unbounce.com/photos/Flash-Sale--272x253.jpg",
       "Template_description": "Who doesn’t love a good flash sale? Make sure that your visitors don’t miss your limited.",
-      "category": "Sticky Bars",
-      "type": "Ecommerce",
+      "category": "Ecommerce",
+      "type": "Agency Lead Generation",
       "iframe_src": "https://templates.unbounce.com/flash-sale",
       "id": 29
     },
@@ -323,6 +323,168 @@
       "type": "Agency",
       "iframe_src": "https://templates.unbounce.com/ebook-download/",
       "id": 36
+    },
+    {
+      "Template_title": "Webinar Registration",
+      "template_image": "https://unbounce.com/photos/Webinar-Registration--272x253.jpg",
+      "Template_description": "Make it easy for attendees to sign up for your webinar with this attention-focusing sticky bar.",
+      "category": "Sticky Bars",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/webinar-registration",
+      "id": 37
+    },
+    {
+      "Template_title": "Calendar Reminder",
+      "template_image": "https://unbounce.com/photos/Calendar-reminder-1-272x253.jpg",
+      "Template_description": "Sometimes, people just need a little time. Give your prospects the option of saving this offer for later.",
+      "category": "Popups",
+      "type": "Ecommerce",
+      "iframe_src": "https://templates.unbounce.com/calendar-reminder/",
+      "id": 38
+    },
+    {
+      "Template_title": "New Listing",
+      "template_image": "https://unbounce.com/photos/New-Listing--272x253.jpg",
+      "Template_description": "Keep your visitors in the loop to keep them coming back—notify them of new listings when they come up.",
+      "category": "Sticky Bars",
+      "type": "Ecommerce",
+      "iframe_src": "https://templates.unbounce.com/new-listing",
+      "id": 39
+    },
+    {
+      "Template_title": "Holiday Announcement",
+      "template_image": "https://unbounce.com/photos/Holiday-Announcement--272x253.jpg",
+      "Template_description": "Do your have special holiday hours? Do you have other seasonal announcements? Let your visitors know",
+      "category": "Featured",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/holiday-announcement",
+      "id": 40
+    },
+    {
+      "Template_title": "MODA",
+      "template_image": "https://unbounce.com/photos/MODATHUMBNAIL-272x253.jpg",
+      "Template_description": "Influenced by Unbounce customer Indochino’s high-converting design.",
+      "category": "landing page",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/moda/",
+      "id": 41
+    },
+    {
+      "Template_title": "Content Download",
+      "template_image": "https://unbounce.com/photos/Content-Download--272x253.jpg",
+      "Template_description": "Promote your content and collect lead data at the same time with this sticky bar.",
+      "category": "Featured",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/content-download",
+      "id": 42
+    },
+    {
+      "Template_title": "ALLHËR",
+      "template_image": "https://unbounce.com/photos/ALLHER-272x253.jpg",
+      "Template_description": "Designed for real estate companies, this template allows for plenty of space to show off imagery and benefits of your customers’ dream homes.",
+      "category": "Featured",
+      "type": "Agency",
+      "iframe_src": "https://templates.unbounce.com/allher/",
+      "id": 43
+    },
+    {
+      "Template_title": "Wayfaring (Travel)",
+      "template_image": "https://unbounce.com/photos/Wayfaring--272x254.png",
+      "Template_description": "Designed with wayfaring adventurers in mind, this travel template features a video header background, plenty of space for photos.",
+      "category": "Featured",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/wayfaring/",
+      "id": 44
+    },
+    {
+      "Template_title": "Harbor",
+      "template_image": "https://unbounce.com/photos/Harbor-272x254.jpg",
+      "Template_description": "Your business service needs a template. Why not try Harbor’s eye-catching design featuring clear, large text?",
+      "category": "Featured",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/harbor",
+      "id": 45
+    },
+    {
+      "Template_title": "Smile Dental (Health)",
+      "template_image": "https://unbounce.com/photos/Smile-272x254.jpg",
+      "Template_description": "Because people tend to need a bit more info when choosing dental services, this template has ample space to list testimonials, explain your practice’s.",
+      "category": "Featured",
+      "type": "health",
+      "iframe_src": "https://templates.unbounce.com/smile-dental",
+      "id": 46
+    },
+    {
+      "Template_title": "Piggy Bank Loans",
+      "template_image": "https://unbounce.com/photos/Piggy-272x254.jpg",
+      "Template_description": "Your landing page needs to have a prominent form to help you capture leads, a hero image, and solid testimonials. ",
+      "category": "landing page",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/piggy-bank-loans",
+      "id": 47
+    },
+    {
+      "Template_title": "McGillis University",
+      "template_image": "https://unbounce.com/photos/Mcgillis-272x254.jpg",
+      "Template_description": "Choosing a school is a big decision. This template is designed to help you put your best foot (and supporting).",
+      "category": "Featured",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/mcgillis-university",
+      "id": 48
+    },
+    {
+      "Template_title": "Service Callback",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-service-callback-272x253-lores-272x253.jpg",
+      "Template_description": "This bright, cheerful theme puts your lead gen form front and center. Ideal for capturing leads for any agency.",
+      "category": "landing page",
+      "type": "health",
+      "iframe_src": "https://templates.unbounce.com/service-callback/",
+      "id": 49
+    },
+    {
+      "Template_title": "Fitspo",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-fitspo-clickthrough-thumbnail1-272x253-lores-272x253.jpg",
+      "Template_description": "Need to boost membership for a health club or facility? Fitspo uses urban design cues to make a memorable.",
+      "category": "Featured",
+      "type": "health",
+      "iframe_src": "https://templates.unbounce.com/fitspo-click-through/",
+      "id": 50
+    },
+    {
+      "Template_title": "Bustle Realty",
+      "template_image": "https://unbounce.com/photos/Bustle-Reality-272x253.jpg",
+      "Template_description": "High-rise your conversions with this lead capturing popup template that’s ready-to-use for real estate offers.",
+      "category": "Popups",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/bustle-realty/",
+      "id": 51
+    },
+    {
+      "Template_title": "Evento",
+      "template_image": "https://unbounce.com/photos/Evento-Video-Background-FINAL-272x253.jpg",
+      "Template_description": "Grab leads for your next event by blowing them away with a video background of your event.",
+      "category": "landing page",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/evento-video/",
+      "id": 52
+    },
+    {
+      "Template_title": "MJ Deal",
+      "template_image": "https://unbounce.com/photos/Mj-Deal-272x253.jpg",
+      "Template_description": "Apply a custom color filter over this popup’s full-width image background for a stylish.",
+      "category": "Popups",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/mj-deal",
+      "id": 53
+    },
+    {
+      "Template_title": "Good Bank List",
+      "template_image": "https://unbounce.com/photos/GoodbankList-272x253.jpg",
+      "Template_description": "This lead-generating popup is a great fit for banks, insurance brokers, and other financial institutions.",
+      "category": "Popups",
+      "type": "Agency Lead Generation",
+      "iframe_src": "https://templates.unbounce.com/good-bank-list",
+      "id": 54
     }
   ]
 }

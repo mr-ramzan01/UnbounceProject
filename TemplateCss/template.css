@@ -90,14 +90,42 @@ margin:auto;
     width: 80%;
     margin: auto;
 }
-#Filter_Template_parent{
-    border: 1px solid blue;
-    width: 24%;
+
+/* Filter Related CSS */
+#Filter_Template_parent{ 
+    /* border: 1px solid blue; */
+    width: 23%;
+  
     
 }
-
-
-
+#Filter_Template_parent1_child{
+    position: sticky;
+    top: 40px;
+    height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+}
+#Bytool_head{
+    font-size: 14px;
+    font-family: 'source sance pro',sans-serif;
+    font-weight: 600;
+    margin-left:15px;
+    margin-top: 5px;
+}
+#Bytool_head+ul>li{
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration:none;
+    color: #4f4b4b;
+    font-family:'source sance pro',sans-serif ;
+    font-size: 14px;
+    padding: 5px 5px 5px;
+}
+#Bytool_head+ul>li:hover{
+    color: blue;
+    text-decoration: underline;
+}
+/* Content RElated Css */
 #Template_Area{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -176,6 +204,8 @@ backface-visibility: hidden;
 #viewPageLink:hover{
     color: #0033ff;
 }
+
+
 /* <!--  media quieres for template top --> */
 
 @media screen and (max-width: 767px) {
@@ -220,41 +250,32 @@ width: 400px;
   #Template_Area>div #viewPageLink{
     font-size: 12px;
   }
+  #template_top_Image>img{
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 330px;
+    margin-top: 20px;
+}
     #Filter_Template_parent{
         display: none;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-div.sticky {
-    position: -webkit-sticky;
-    position: fixed;
-    top: 0;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
-  }
-  #ak{
-      padding-top: 40px;
-        height: 500px;
-          position: sticky;
-            top: 125px;
-            background-color: blue;
-           
-          }
-          #ak>div{
-              margin-top: 200px;
-          } */
+@media screen and (max-width :479px){
+    #Template_Area{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+       }
+       #Template_Area>div #viewPageLink{
+         font-size: 9px;
+       }
+         #Filter_Template_parent{
+             display: none;
+         }
+         #template_top_Image>img{
+            display: block;
+            margin: auto;
+           width: 80%;
+        }
+}
