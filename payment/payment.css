@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.payment_header {
+    /* border: 1px solid red; */
+    height: 85px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.payment_header > div {
+    margin: 0 30px;
+}
+.payment_header img {
+    width: 180px;
+}
+
+
+.blue_circle_div {
+    border: 1px solid red;
+    
+}
+.blue_circle_div > div {
+    /* border: 1px solid green; */
+    display: flex;
+    margin: 20px 15px;
+}
+.blue_done1,.blue_done2, .blue_done3 {
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+    /* background-color: #0033ff; */
+    width: 25px;
+    color: #fff;
+    font-size: 12px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px 0 10px;
+}
+.blue_done1 {
+    background-color: #0033ff;
+}
+.blue_done2, .blue_done3 {
+    background-color: #303030;
+}
+.payment_change_div {
+    display: flex;
+    /* border: 1px solid orange; */
+    font-size: 14px;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.signUp_info_div {
+    border: 1px solid blue;
+    height: 100vh;
+}
+
+.signUp_info_div > div {
+    display: flex;
+    gap: 40px;
+    border: 1px solid green;
+    margin: 0 30px;
+}
+.signup_signup {
+    width: 70%;
+    border: 1px solid orange;
+}
+.signup_payments {
+    width: 35%;
+    border: 1px solid yellowgreen;
+}
+.signup_headers {
+    /* text-align: center; */
+    padding: 20px 15px;
+    background-color:#ededed;
+}
+.signup_headers  h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
