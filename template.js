@@ -39,7 +39,7 @@ parentNode.append(childDiv);
 const getTemplate = async()=>{
 try {
     let data =  await getData(`http://localhost:8001/Templates`);
-    console.log(data);
+    //console.log(data);
     displayTemplates(data,templateContainer);
 } catch (error) {
     console.log(error);
