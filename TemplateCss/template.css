@@ -120,11 +120,15 @@ margin:auto;
     font-family:'source sance pro',sans-serif ;
     font-size: 14px;
     padding: 5px 5px 5px;
+
 }
 #Bytool_head+ul>li:hover{
     color: blue;
     text-decoration: underline;
+   font-size: 15px;
+   font-weight: 200;
 }
+
 /* Content RElated Css */
 #Template_Area{
     display: grid;

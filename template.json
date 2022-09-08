@@ -50,7 +50,7 @@
       "template_image": "https://unbounce.com/photos/Thumbnail-2-272x254.jpg",
       "Template_description": "This quick-start template is great for capturing leads with any offer, whether it’s a webinar, ebook, or promotional coupon.",
       "category": "Featured",
-      "type": "SaaS",
+      "type": "Restaurant",
       "iframe_src": "https://templates.unbounce.com/horizons/",
       "id": 6
     },
@@ -238,8 +238,8 @@
       "Template_title": "Website Survey",
       "template_image": "https://unbounce.com/photos/Website-survey-272x254.jpg",
       "Template_description": "To promote a survey on your page, use this popup to allow your visitors to click through and offer feedback.",
-      "category": "Ecommerce",
-      "type": "Agency",
+      "category": "Featured",
+      "type": "Ecommerce",
       "iframe_src": "https://templates.unbounce.com/website-survey/",
       "id": 27
     },
@@ -320,7 +320,7 @@
       "template_image": "https://unbounce.com/photos/Ebook-downlaod-272x254.jpg",
       "Template_description": "Focus attention on your ebook content with this minimalist popup.",
       "category": "Popups",
-      "type": "Agency",
+      "type": "SaaS",
       "iframe_src": "https://templates.unbounce.com/ebook-download/",
       "id": 36
     },
@@ -485,6 +485,69 @@
       "type": "Agency Lead Generation",
       "iframe_src": "https://templates.unbounce.com/good-bank-list",
       "id": 54
+    },
+    {
+      "Template_title": "A la Carte",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-alacarte_click-272x253-lores-272x253.jpg",
+      "Template_description": "Something delicious is coming! Use this template to capture emails and create excitement for a new business.",
+      "category": "landing page",
+      "type": "Restaurant",
+      "iframe_src": "https://templates.unbounce.com/a-la-carte-lead-generation/",
+      "id": 55
+    },
+    {
+      "Template_title": "Sano",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-sano-272x253-lores-272x253.jpg",
+      "Template_description": "A warm, down-to-earth theme that puts the focus on your brand’s message. Perfect for restaurants.",
+      "category": "landing page",
+      "type": "Restaurant",
+      "iframe_src": "https://templates.unbounce.com/sano/",
+      "id": 56
+    },
+    {
+      "Template_title": "5 Elements",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-5-elements-272x253-lores-272x253.jpg",
+      "Template_description": "Multi-purpose lead gen page with the right balance of all 5 landing page elements: unique selling.",
+      "category": "Featured",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/5-elements/",
+      "id": 57
+    },
+    {
+      "Template_title": "Lido",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-lido-272x253-lores-272x253.jpg",
+      "Template_description": "A smart, detailed theme that gives visitors everything they need to know about your ebook, ecourse or digital publication.",
+      "category": "Featured",
+      "type": "SaaS",
+      "iframe_src": "https://templates.unbounce.com/lido/",
+      "id": 58
+    },
+    {
+      "Template_title": "Eatrite",
+      "template_image": "https://unbounce.com/photos/Eatrite-272x253.jpg",
+      "Template_description": "A versatile popup template that checks all the boxes with plenty of space for copy, your branding, and a prominent background image.",
+      "category": "Popups",
+      "type": "health",
+      "iframe_src": "https://templates.unbounce.com/eatrite",
+      "id": 59
+    },
+    {
+      "Template_title": "Holiday Announcement",
+      "template_image": "https://unbounce.com/photos/Holiday-Announcement--272x253.jpg",
+      "Template_description": "Do your have special holiday hours? Do you have other seasonal announcements? Let your visitors know!",
+      "category": "Sticky Bars",
+      "type": "health",
+      "iframe_src": "https://templates.unbounce.com/holiday-announcement",
+      "id": 60
+    },
+    {
+      "Template_title": "A la Carte",
+      "template_image": "https://unbounce.com/photos/unbounce-template-thumbnail-alacarte_clickthrough1-272x253-lores-272x253.jpg",
+      "Template_description": "Delizioso! This tantalizing theme is perfect for familiarizing your audience with any type of food service offering. Also works well for ‘craft’ shops & services.",
+      "category": "Sticky Bars",
+      "type": "Restaurant",
+      "iframe_src": "https://templates.unbounce.com/a-la-carte-click-through/",
+      "id": 61
     }
   ]
 }
