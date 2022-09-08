@@ -10,7 +10,9 @@
 <body>
     <div class="payment_header">
         <div>
-            <img src="https://unbounce.com/wp-content/themes/unbounce2019/assets/img/unbounce-icon-dark.svg?v=1" alt="">
+            <a href="">
+                <img src="https://unbounce.com/wp-content/themes/unbounce2019/assets/img/unbounce-icon-dark.svg?v=1" alt="">
+            </a>
         </div>
     </div>
     <div class="blue_circle_div">
@@ -33,48 +35,53 @@
         <div>
             <div class="signup_signup">
                 <div class="signup_headers">
-                    <h2>Create your Launch account (<span id="sign_up_plan"></span> )</h2>
+                    <h2>Create your <span id="sign_up_plan">Launch account ($90)</span></h2>
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="signup_google">
+                    <img src="../images/googleLogo2.svg" alt="">
                     <h3>Sign Up with Google</h3>
                 </div>
-                <div>
+                <div class="signup_terms">
                     <input type="checkbox" name="" id="">
-                    <strong> I agree to Unbounce's Terms of Service and Privacy Policy</strong>
+                    <strong> I agree to Unbounce's <span>Terms of Service </span> and <span>Privacy Policy</span></strong>
+                </div>
+                <div class="hrdiv">
+                    <div class="sign_up_or_line"></div>
+                    <div>or</div>
+                    <div class="sign_up_or_line"></div>
                 </div>
                 <div class="signup_name">
                     <div>
-                        <label for="">First name*</label>
-                        <input type="text" name="" id="">
+                        <label >First Name*</label><br>
+                        <input id="first_name" type="text" name="" id="">
                     </div>
                     <div>
-                        <label for="">Last name</label>
-                        <input type="text" name="" id="">
+                        <label >Last Name*</label><br>
+                        <input id="last_name" type="text" name="" id="">
                     </div>
                 </div>
-                <div>
-                    <label for="">Email*</label>
-                    <input type="text" name="" id="">
+                <div class="signup_email_password">
+                    <label >Email*</label><br>
+                    <input type="text"id="email">
                 </div>
-                <div>
-                    <label for="">Confirm your email*</label>
-                    <input type="text" name="" id="">
+                <div class="signup_email_password">
+                    <label >Confirm your email*</label><br>
+                    <input type="text">
                 </div>
-                <div>
-                    <label for="">password*</label>
-                    <input type="text" name="" id="" >
+                <div class="signup_email_password">
+                    <label >password*</label><br>
+                    <input type="text" name="" id="password" >
                 </div>
-                <div>
+                <div class="signup_show_how">
                     <div></div>
-                    <div></div>
+                    <div>Show us how it’s done! ?</div>
                 </div>
-                <div>
+                <div class="signup_terms">
                     <input type="checkbox" name="" id="">
-                    <strong> I agree to Unbounce's Terms of Service and Privacy Policy</strong>
+                    <strong> I agree to Unbounce's <span>Terms of Service </span> and <span>Privacy Policy</span></strong>
                 </div>
-                <div>
-                    <button type="submit">Sign UP width Email</button>
+                <div class="signup_submit">
+                    <button  id="submit_signup_btn">Sign UP with Email</button>
                 </div>
             </div>
             <div class="signup_payments">
@@ -82,51 +89,51 @@
                     <div class="signup_headers">
                         <h2>Order Summary</h2>
                     </div>
-                    <div>
+                    <div class="sign_up_price_heading">
                         <h4>Your Pricing Plan</h4>
                     </div>
-                    <div>
-                        <select name="" id="">
-                            <option value="">Launch$90 billed monthly</option>
-                            <option value="">Launch$972 billed annually</option>
-                            <option value="">Optimize $135 billed monthly</option>
-                            <option value="">Optimize $1,458 billed annually</option>
-                            <option value="">Accelerate $225 billed monthly</option>
-                            <option value="">Accelerate $2,430 billed annually</option>
-                            <option value="">Scale $300 billed monthly</option>
-                            <option value="">Scale $3,240 billed annually</option>
+                    <div class="sign_up_select_price">
+                        <select name="" id="select_plan">
+                            <option value="Launch account ($90)">Launch $90 billed monthly</option>
+                            <option value="Launch account ($972)">Launch $972 billed annually</option>
+                            <option value="Optimize account ($135)">Optimize $135 billed monthly</option>
+                            <option value="Optimize account ($1,458)">Optimize $1,458 billed annually</option>
+                            <option value="Accelerate account ($225)">Accelerate $225 billed monthly</option>
+                            <option value="Accelerate account ($2,430)">Accelerate $2,430 billed annually</option>
+                            <option value="Scale account ($300)">Scale $300 billed monthly</option>
+                            <option value="Scale account ($3,240)">Scale $3,240 billed annually</option>
                         </select>
                     </div>
-                    <div>
-                        <h4></h4>
+                    <div class="sign_up_launch_plan_features">
+                        <h4>Launch Plan Features  ></h4>
                     </div>
-                    <div>
+                    <div class="sign_up_total_due_div">
                         <div>Total due in 14 days</div>
-                        <div id="signup_total_due"></div>
+                        <div id="signup_total_due">$90</div>
                     </div>
-                    <div>
+                    <div class="sign_up_same">
                         <p>If you have a coupon code, you can apply it at the next step</p>
                     </div>
-                    <div>
+                    <div class="sign_up_same">
                         <p>*You will be billed 14 days from the date of signup unless you cancel within the 14 day allotment. Your account will auto renew monthly on the same date.</p>
                     </div>
-                    <div>
+                    <div class="sign_up_anchor_text">
                         <a href="">Interested in a Concierge plan? Let’s talk</a>
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div class="sign_up_ques">
                         <h4>Frequently Asked Questions:</h4>
                     </div>
-                    <div>
+                    <div class="sign_up_fq">
                         <h5>Will I be billed during the trial?</h5>
                         <p>Nope! You will only be billed after your 14-day trial if you choose not to cancel. We’ll send an e-mail reminder near the end of the trial.</p>
                     </div>
-                    <div>
+                    <div class="sign_up_fq">
                         <h5>Can I cancel during my trial?</h5>
                         <p>Certainly! You can cancel at any time, just go to your account dashboard and click “Manage Account”.</p>
                     </div>
-                    <div>
+                    <div class="sign_up_fq">
                         <h5>Can I change plans?</h5>
                         <p>Of course! You can change plans or switch between monthly/annual billing via your account dashboard.</p>
                     </div>
@@ -137,6 +144,118 @@
             </div>
         </div>
     </div>
+    <div class="signup_info_div_s_s">
+        <div class="signup_s_s">
+            <div class="signup_headers">
+                <h2>Order Summary</h2>
+            </div>
+            <div class="sign_up_price_heading">
+                <h4>Your Pricing Plan</h4>
+            </div>
+            <div class="sign_up_select_price">
+                <select name="" id="select_plan2">
+                    <option value="Launch account ($90)">Launch $90 billed monthly</option>
+                    <option value="Launch account ($972)">Launch $972 billed annually</option>
+                    <option value="Optimize account ($135)">Optimize $135 billed monthly</option>
+                    <option value="Optimize account ($1,458)">Optimize $1,458 billed annually</option>
+                    <option value="Accelerate account ($225)">Accelerate $225 billed monthly</option>
+                    <option value="Accelerate account ($2,430)">Accelerate $2,430 billed annually</option>
+                    <option value="Scale account ($300)">Scale $300 billed monthly</option>
+                    <option value="Scale account ($3,240)">Scale $3,240 billed annually</option>
+                </select>
+            </div>
+            <div class="sign_up_launch_plan_features">
+                <h4>Launch Plan Features  ></h4>
+            </div>
+            <div class="sign_up_total_due_div">
+                <div>Total due in 14 days</div>
+                <div id="signup_total_due_ss">$90</div>
+            </div>
+            <div class="sign_up_same">
+                <p>If you have a coupon code, you can apply it at the next step</p>
+            </div>
+            <div class="sign_up_same">
+                <p>*You will be billed 14 days from the date of signup unless you cancel within the 14 day allotment. Your account will auto renew monthly on the same date.</p>
+            </div>
+            <div class="sign_up_anchor_text">
+                <a href="">Interested in a Concierge plan? Let’s talk</a>
+            </div>
+        </div>
+        <div>
+            <div class="signup_signup2">
+                <div class="signup_headers">
+                    <h2>Create your <span id="sign_up_plan_ss">Launch account ($90)</span></h2>
+                </div>
+                <div class="signup_google">
+                    <img src="../images/googleLogo2.svg" alt="">
+                    <h3>Sign Up with Google</h3>
+                </div>
+                <div class="signup_terms">
+                    <input type="checkbox" name="" id="">
+                    <strong> I agree to Unbounce's <span>Terms of Service </span> and <span>Privacy Policy</span></strong>
+                </div>
+                <div class="hrdiv">
+                    <div class="sign_up_or_line"></div>
+                    <div>or</div>
+                    <div class="sign_up_or_line"></div>
+                </div>
+                <div class="signup_name">
+                    <div>
+                        <label >First Name*</label><br>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div>
+                        <label >Last Name*</label><br>
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="signup_email_password">
+                    <label >Email*</label><br>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="signup_email_password">
+                    <label >Confirm your email*</label><br>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="signup_email_password">
+                    <label >password*</label><br>
+                    <input type="text" name="" id="" >
+                </div>
+                <div class="signup_show_how">
+                    <div></div>
+                    <div>Show us how it’s done! ?</div>
+                </div>
+                <div class="signup_terms">
+                    <input type="checkbox" name="" id="">
+                    <strong> I agree to Unbounce's <span>Terms of Service </span> and <span>Privacy Policy</span></strong>
+                </div>
+                <div class="signup_submit">
+                    <button  id="submit_signup_btn2">Sign UP with Email</button>
+                </div>
+            </div>
+        </div>
+        <div class="sign_up_s_s_lastdiv">
+            <div class="sign_up_ques">
+                <h4>Frequently Asked Questions:</h4>
+            </div>
+            <div class="sign_up_fq">
+                <h5>Will I be billed during the trial?</h5>
+                <p>Nope! You will only be billed after your 14-day trial if you choose not to cancel. We’ll send an e-mail reminder near the end of the trial.</p>
+            </div>
+            <div class="sign_up_fq">
+                <h5>Can I cancel during my trial?</h5>
+                <p>Certainly! You can cancel at any time, just go to your account dashboard and click “Manage Account”.</p>
+            </div>
+            <div class="sign_up_fq">
+                <h5>Can I change plans?</h5>
+                <p>Of course! You can change plans or switch between monthly/annual billing via your account dashboard.</p>
+            </div>
+            <div>
+                <img src="../images/SSL secure.svg" alt="">
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
 <script src="./payment.js"></script>
