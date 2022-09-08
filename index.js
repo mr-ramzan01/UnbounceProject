@@ -274,7 +274,6 @@ document.getElementById("s_s_solutions_click").addEventListener("click",() => {
 let backArrow = document.querySelectorAll(".back_arrow_click");
 for(let i=0; i<backArrow.length; i++) {
     backArrow[i].addEventListener("click",() => {
-        console.log(34);
         document.querySelector(".s_s_showAll ").style.display = "block"
         document.querySelector(".s_s_showing_learn ").style.display = "none"
         document.querySelector(".s_s_showing_products ").style.display = "none"
@@ -304,7 +303,6 @@ setTimeout(() => {
         if(pointer == 3) {
             pointer = 0;
         }
-        console.log(2);
         image.src = animatedArr[pointer];
         pointer++;
     

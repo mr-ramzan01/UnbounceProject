@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.payment_header {
+    /* border: 1px solid red; */
+    height: 85px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.payment_header > div {
+    margin: 0 30px;
+}
+.payment_header img {
+    width: 180px;
+    cursor: pointer;
+}
+
+
+.blue_circle_div {
+    /* border: 1px solid red; */
+}
+.blue_circle_div > div {
+    /* border: 1px solid green; */
+    display: flex;
+    margin: 20px 15px;
+}
+.blue_done1,.blue_done2, .blue_done3 {
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+    /* background-color: #0033ff; */
+    width: 25px;
+    color: #fff;
+    font-size: 12px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px 0 10px;
+}
+.blue_done1 {
+    background-color: #0033ff;
+}
+.blue_done2, .blue_done3 {
+    background-color: #303030;
+}
+.payment_change_div {
+    display: flex;
+    /* border: 1px solid orange; */
+    font-size: 14px;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.signUp_info_div {
+    /* border: 1px solid blue; */
+    /* height: 100vh; */
+    /* display: none; */
+}
+
+.signUp_info_div > div {
+    display: flex;
+    gap: 40px;
+    /* border: 1px solid green; */
+    margin: 0 30px;
+}
+.payment_div1 {
+    /* display: none; */
+}
+.payment_div1 > div {
+    display: flex;
+    gap: 40px;
+    /* border: 1px solid green; */
+    margin: 0 30px;
+}
+.signup_signup {
+    width: 70%;
+    /* border: 1px solid orange; */
+    margin-bottom: 150px;
+}
+.signup_payments {
+    width: 35%;
+    /* border: 1px solid yellowgreen; */
+}
+.signup_headers {
+    /* text-align: center; */
+    padding: 23px 20px;
+    background-color:#ededed;
+}
+.signup_headers  h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+.signup_signup {
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    /* padding: 20px; */
+}
+.signup_signup label {
+    color: rgb(94, 94, 94);
+    font-size: 14px;
+    font-weight: 600;
+}
+.signup_google {
+    /* border: 1px solid blue; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px 1px;
+    margin: 45px 20px 20px 20px;
+    border-radius: 3px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.signup_google:hover {
+    cursor: pointer;
+    background-color: #ededed;
+}
+.signup_google h3 {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(114, 114, 114)
+}
+.signup_terms {
+    /* border: 1px solid red; */
+    margin: 0 20px;
+    padding: 10px 0;
+}
+.signup_terms strong {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+.signup_terms strong span {
+    color: #0033ff;
+}
+.signup_terms strong span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hrdiv {
+    padding: 20px;
+    display: flex;
+}
+.sign_up_or_line{
+    width: 50%;
+    border-top: 1px solid #dfdfdf;
+}
+.signup_name {
+    /* border: 1px solid blue; */
+    display: flex;
+    margin: 10px 20px;
+    gap: 10px;
+}
+.signup_name > div {
+    /* border: 1px solid green; */
+    width: 98%;
+}
+.signup_name input {
+    height: 32px;
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+    width: 95%;
+    margin-top: 10px;
+    outline-color: #0033ff;
+    padding-left: 10px;
+}
+
+.signup_email_password {
+    /* border: 1px solid violet; */
+    margin: 30px 20px 0 20px;
+}
+.signup_email_password input {
+    margin-top: 10px;
+    height: 32px;
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+    width: 98%;
+    outline-color: #0033ff;
+    padding-left: 10px;
+}
+
+.signup_show_how {
+    /* border: 1px solid green; */
+    display: flex;
+    margin: 10px 20px 15px 20px;
+    gap: 10px;
+    align-items: center;
+}
+.signup_show_how > div:first-child {
+    /* border: 1px solid red; */
+    width: 98%;
+    background-color: #d8d8d8 ;
+    border-radius: 5px;
+    height: 10px;
+}
+.signup_show_how > div:last-child {
+    /* border: 1px solid blue; */
+    width: 98%;
+    font-size: 14px;
+    color:#cecccc;
+}
+.signup_submit {
+    /* border: 1px solid red; */
+    margin: 10px 20px 30px 20px;
+}
+.signup_submit button {
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0033ff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup_submit button:hover {
+    background-color: #0029cc;
+}
+
+
+.sign_up_price_heading {
+    /* border: 1px solid red; */
+    margin: 30px 20px 10px 20px;
+    
+}
+.sign_up_price_heading h4 {
+    font-size: 13.5px;
+    font-weight: 400;
+}
+.sign_up_select_price {
+    /* border: 1px solid blue; */
+    margin: 0 20px;
+}
+.sign_up_select_price select {
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #0033ff;
+    outline: none;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    color:rgb(49, 49, 49);
+}
+.sign_up_select_price select option {
+    height: 35px;
+}
+
+.sign_up_launch_plan_features {
+    /* border: 1px solid red;  */
+    margin: 30px;
+}
+.sign_up_launch_plan_features h4 {
+    font-size: 13.5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.sign_up_total_due_div {
+    border-top: 1px solid #dfdfdf; 
+    border-bottom: 1px solid #dfdfdf; 
+    margin: 0 20px 20px 20px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.sign_up_total_due_div > div:first-child {
+    /* border: 1px solid orange; */
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    color: #606060;
+}
+#signup_total_due {
+    /* border: 1px solid green; */
+    font-size: 20px;
+    color: #66d092;
+    font-weight: 700;
+}
+#signup_total_due3 {
+    /* border: 1px solid green; */
+    font-size: 20px;
+    color: #66d092;
+    font-weight: 700;
+}
+#signup_total_due_ss {
+    /* border: 1px solid green; */
+    font-size: 20px;
+    color: #66d092;
+    font-weight: 700;
+}
+.sign_up_same {
+    /* border: 1px solid green; */
+    margin: 0 20px;
+    font-size: 13px;
+    color: #606060;
+    padding: 0 0 15px 0;
+}
+
+.sign_up_anchor_text {
+    /* border: 1px solid green; */
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+.sign_up_anchor_text a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #0033ff;
+}
+.signup_payments > div:first-child {
+    border: 1px solid #dfdfdf;
+    border-top: none;
+}
+.sign_up_ques {
+    /* border: 1px solid red; */
+    margin: 40px 0;
+}
+.sign_up_ques h4 {
+    font-weight: 500;
+}
+.sign_up_fq {
+    /* border: 1px solid green; */
+    margin-bottom: 35px;
+}
+.sign_up_fq h5 {
+    color: #303030;
+    font-weight: 500;
+}
+.sign_up_fq  p {
+    color: #606060;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+
+.signup_info_div_s_s {
+    /* border: 1px solid red; */
+    padding: 0 20px;
+    display: none;
+}
+.signup_s_s {
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    margin-bottom: 30px;
+}
+.signup_signup2 {
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    /* padding: 20px; */
+}
+.sign_up_s_s_lastdiv {
+    margin-bottom: 50px;
+}
+
+.payment_paypal_logo {
+    margin: 0 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.payment_paypal_logo img {
+    width: 150px;
+}
+
+.signup_biling_name{
+    /* border: 1px solid blue; */
+    display: flex;
+    margin: 30px 20px 10px 20px;
+    gap: 10px;
+}
+.signup_biling_name> div {
+    /* border: 1px solid green; */
+    width: 98%;
+}
+.signup_biling_name input {
+    height: 32px;
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+    width: 95%;
+    margin-top: 10px;
+    outline-color: #0033ff;
+    padding-left: 10px;
+}
+.payment_pay {
+    /* border: 1px solid red; */
+    margin: 40px 20px 30px 20px;
+}
+.payment_pay button {
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0033ff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.payment_pay button:hover {
+    background-color: #0029cc;
+}
+
+.otp_div {
+    display: none;
+    /* border: 1px solid blue; */
+}
+.otp_heading {
+    /* border: 1px solid red; */
+    padding: 40px 0;
+}
+.otp_heading h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.otp_input_box {
+    /* border: 1px solid green; */
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otp_input_box > div {
+    /* border: 1px solid green; */
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.otp_input_box input {
+    height: 50px;
+    width: 50px;
+    outline: none;
+    padding-left: 25px;
+    font-size: 28px;
+}
+.email_confirmation {
+    /* border: 1px solid green; */
+    margin: 50px 0;
+}
+.email_confirmation button {
+    width: 20%;
+    margin-left: 40%;
+    height: 60px;
+    border: none;
+    background-color: #0033ff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+.email_confirmation button:hover {
+    background-color: #0029cc;
+}
+.small_screen {
+    /* border: 1px solid green; */
+    padding: 0 20px 40px 20px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0) and (max-width: 870px) {
+    .signUp_info_div {
+        display: none;
+    }
+    .signup_info_div_s_s  {
+        display: block;
+    }
+    .payment_change_div {
+        font-size: 12px;
+    }
+    .otp_input_box input {
+        height: 20px;
+        width: 20px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .email_confirmation button {
+        height: 30px;
+        font-size: 15px;
+    }
+    .payment_div1 {
+        display: none;
+    }
+    .small_screen {
+        display: block;
+    }
+}

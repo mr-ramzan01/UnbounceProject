@@ -1,0 +1,39 @@
+{
+  "signUpUsers": [
+    {
+      "first_name": "Ramzan",
+      "last_name": "khan",
+      "email": "ramzan@gmail.com",
+      "password": "ramzan123",
+      "id": 1
+    },
+    {
+      "first_name": "Sumit",
+      "last_name": "Mathur",
+      "email": "sumit@gmail.com",
+      "password": "sumit123",
+      "id": 2
+    },
+    {
+      "first_name": "Arjun",
+      "last_name": "Kumar",
+      "email": "arjun@gmail.com",
+      "password": "arjun123",
+      "id": 3
+    },
+    {
+      "first_name": "Harsh",
+      "last_name": "Kumar",
+      "email": "harsh@gmail.com",
+      "password": "harsh123",
+      "id": 4
+    },
+    {
+      "first_name": "g",
+      "last_name": "sg",
+      "email": "gs",
+      "password": "s",
+      "id": 5
+    }
+  ]
+}
