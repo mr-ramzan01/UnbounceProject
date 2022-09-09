@@ -1,6 +1,6 @@
 #pricingParentDiv{
     text-align: center;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(254, 249, 249);
 }
 
 #headDiv{
@@ -16,7 +16,7 @@
 
 #pricingDiv{
     /* border: 2px solid greenyellow; */
-    height: 800px;
+    /* height: 800px; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -28,45 +28,52 @@
 
 #footerDiv{
     /* border: 2px solid brown; */
-    height: 740px;
+    height: 800px;
     background-color: #303030;
     color: #fff;
 }
 
-#faqDiv{
-    border: 2px solid teal;
-    height: 400px;
+#faqSection{
+    /* border: 2px solid teal; */
+    height: 1500px;
     color: #303030;
     margin-top: 68px;
+    padding-top: 30px;
+    scroll-behavior: smooth;
 }
 
 #priceDiv1{
-    border: 1px solid black;
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
     width: 19%;
     margin-left: 150px;
+    background-color: white;
 }
 
 #priceDiv2{
-    border: 1px solid black;
-    width: 19%
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    background-color: white;
+    border: 3px solid rgb(178, 177, 177);
 }
 
 #priceDiv3{
-    border: 1px solid black;
-    width: 19%
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    background-color: white;
 }
 
 #priceDiv4{
-    border: 1px solid black;
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
     width: 19%;
     margin-right: 150px;
+    background-color: white;
 }
 
 #buttonDiv{
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .toggle-btn{
@@ -93,6 +100,10 @@
 
 .toggle-btn.active > .inner-circle{
     margin-left: 40px;
+}
+
+.toggle-btn.active + {
+    
 }
 
 #headDiv >h1 {
@@ -192,90 +203,347 @@ img{
     font-size: 19px;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.logo1{
+    height: 150px;
+    width: 160px;
+    margin-top: -80px;
+    margin-left: -100px;
+}
+
+#ribbon{
+    width: 160px;
+    height: 32px;
+    border: 1px solid rgb(178, 177, 177);
+    background-color: rgb(178, 177, 177);
+    margin-left: 175px;
+    margin-top: -12px;
+    transform: rotate(-90deg)
+}
+
+#ribbon>h6{
+    margin-top: 10px;
+
+}
+
+.planName{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    margin-left: -150px;
+}
+
+.planName1{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    margin-left: -130px;
+    margin-top: 10px;
+}
+
+.planName2{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    margin-left: -150px;
+}
+
+.planName2{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    margin-left: -100px;
+}
+
+.priceChild{
+    display: flex;
+    font-family: "Barlow Semi Condensed",sans-serif;
+}
+
+.planPrice{
+    font-size: 60px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.pPrice{
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 47.5px;
+    margin-left: 2px;
+}
+
+.p1Price{
+    font-size: 18px;
+    margin-top: 42px;
+    margin-left: 3px;
+}
+
+.p2Price{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 4px;
+}
+
+.planFeature{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+ul{
+    list-style: none;
+    line-height: 45px;
+    text-align: left;
+    margin-left: -25px;
+}
+
+ul li:before{
+    content: '✔ ';
+}
+
+#subscribeBtn1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#subscribeBtn2{
+    margin-top: 23px;
+}
+
+#subscribeBtn3{
+    margin-top: 20px;
+}
+
+#subscribeBtn4{
+    margin-top: -38px;
 }
 
 
 
+section{
+    background-color: rgb(254, 249, 249);
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+#mainLabel{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 42px;
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    padding-top: 30px;
+    color: rgb(69, 68, 68);
+    text-align: center;
+    position: relative;
+}
 
+label{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 26px;
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    padding-top: 30px;
+    color: rgb(69, 68, 68);
+    text-align: left;
+    position: relative;
+}
 
+label::after{
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    color: #666;
+    position: relative;
+    font-size: 22px;
+    content: "\271B";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 16px;
+}
 
+#mainLabel::after{
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    color: #666;
+    position: relative;
+    font-size: 22px;
+    content: "\271B";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 16px;
+}
 
+#sec{
+    display: none;
+}
 
+.faq{
+    color: #666;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    text-align: justify;
+    scroll-behavior: smooth;
+}
 
+#faqDiv{
+    color: #666;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    text-align: justify;
+    scroll-behavior: smooth;
+}
 
-.faqs-container{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 700px;
-    margin: 40px auto;
-    }
-    .faqs-container .ques-container{
-        box-shadow: 0 4px 8px -3px rgba(0 ,0, 0, 0);
-    }
-    .faqs-container  p{
-        padding: 10px -45px;
-        font-size: 20px;
-    }
-    .faqs-container  h2{
-        padding: 20px -50px;
-        font-size: 40px;
-        color: white;
-        font: bold;
-    
-    }
-    .ques-container h3 {
-        margin-top: 30px;
-    }
-    .content {
-        color: white;
-        padding-left: 50px;
-        /* border: 1px solid red; */
-    }
-    .content p {
-        font-size: 15px;
-    }
-    /* .faq-header {
-        background-color: black;
-        border: 1px solid blue;
-    } */
-    .faqs-container .faq-header{
-        display: flex;
-        background: black;
-        color: white;
-        align-items: center;
-        cursor: pointer;
-    }
-    .faqs-container .faq-header .open,
-    .faqs-container .faq-header .close{
-        position: absolute;
-        color: white;
-        right: 0;
-        padding: 0 32px;
-        font-size: 22px;
-        font-weight: bold;
-        transform: translateY(-8px);
-        opacity: 0;
-        transition: all 500ms;
-    }
-    .faqs-container .faq-header .open.active,
-    .faqs-container .faq-header .close.active{
-        opacity: 1;
-        transform: translateY(0);
-    }
-    .faqs-container .faq-header h3{
-        font-size: 20px;
-        padding: 0 32px;
-    }
-    .faqs-container .content{
-        /* padding: 0 32px; */
-    
-        background: white;
-        line-height: 2;
-        max-height: 0;
-        overflow: hidden;
-        transition: all 500ms;
-    }
-    .faqs-container .content.active{
-        max-height: 600px;
-    }
+#sec:checked + #mainLabel + #faqDiv{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+#s1:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+#s1:checked + label::after{
+    content: "\268A";
+    scroll-behavior: smooth;
+}
+
+#s1{
+    display: none;
+}
+
+.faqP{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.faqChild{
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    scroll-behavior: smooth;
+}
+
+#s2:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s2:checked + label::after{
+    content: "\268A";
+}
+
+#s2{
+    display: none;
+}
+
+#s3:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s3:checked + label::after{
+    content: "\268A";
+}
+
+#s3{
+    display: none;
+}
+
+#s4:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s4:checked + label::after{
+    content: "\268A";
+}
+
+#s4{
+    display: none;
+}
+
+#s5:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s5:checked + label::after{
+    content: "\268A";
+}
+
+#s5{
+    display: none;
+}
+
+#s6:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s6:checked + label::after{
+    content: "\268A";
+}
+
+#s6{
+    display: none;
+}
+
+#s7:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s7:checked + label::after{
+    content: "\268A";
+}
+
+#s7{
+    display: none;
+}
+
