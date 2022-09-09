@@ -1,5 +1,5 @@
 document.getElementById("submit_signup_btn").addEventListener("click",() => {
-    alert("signUp")
+    alert("SignUp Successfully")
     let signup_user_details = {
         first_name: document.getElementById("first_name").value,
         last_name: document.getElementById("last_name").value,
@@ -17,7 +17,7 @@ document.getElementById("submit_signup_btn").addEventListener("click",() => {
     location.href="./payment2.html"
 })
 document.getElementById("submit_signup_btn2").addEventListener("click",() => {
-    alert("signUp Successfully");
+    alert("SignUp Successfully");
     let signup_user_details = {
         first_name: document.getElementById("first_name").value,
         last_name: document.getElementById("last_name").value,

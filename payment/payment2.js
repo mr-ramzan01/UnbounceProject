@@ -31,5 +31,6 @@ document.getElementById("payment_btn2").addEventListener("click",() => {
 })
 
 document.getElementById("email_confirmation_btn").addEventListener("click",() => {
+    alert("Congratulations! You are a member of Unbounce")
     location.href="../index.html"
 })
