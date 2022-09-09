@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='subscription.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- <div id="navbar"><img src="https://app.unbounce.com/app_assets/logo/unbounce-identity-gray-db7ebfd2fef7d62e9a9291a4bfa9c5de863e0be6523b437b87c16d27f0015412.svg"></div> -->
+    <div id="subsParentdiv">
+        <!-- <ol class="pageNo">
+            <li class="active">Account Info</li>
+            <li>Billing Info</li>
+            <li>Email Confirmation</li>
+        </ol> -->
+
+        <div class="firstDiv">
+            <div class="headDiv">
+                <h2>Create your Accelerate account ($225/monthly)</h2>
+            </div>
+            <div id="bodyDiv">
+                <button id="btn1"><img id="googleImg"
+                        src="https://th.bing.com/th/id/OIP.AGrIMX4lKjHd03RCk693-wHaGt?w=189&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7">Sign
+                    Up with Google</button><br>
+                    <input type="checkbox" class="checkBox">
+                    <label>I agree to Unbounce's Terms of Service and Privacy Policy</label>
+            <p>or</p>
+                <!-- <div id="nameDiv">
+                    <div class="namechildDiv">
+                        <p class="nameTag">First Name</p>
+                        <input class="nameInput" type="text" name="firstName" placeholder="First Name">
+                    </div>
+                    <div class="namechildDiv">
+                        <p class="nameTag">Last Name</p>
+                        <input class="nameInput" type="text" name="lastName" placeholder="Last Name">
+                    </div>
+                </div> -->
+
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <p class="nameTag">First Name*</p>
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <p class="nameTag">Last Name*</p>
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email*</label>
+                        <input type="email" class="form-control" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Confirm Email*</label>
+                        <input type="email" class="form-control" placeholder="Confirm Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Password*</label>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" class="checkBox">
+                        <label>I agree to Unbounce's Terms of Service and Privacy Policy</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign Up with Email</button>
+                </form>
+
+                <!-- <p class="pTag"> Email</p>
+                <input class="Input" type="text" name="email" placeholder="Email">
+                <p class="pTag">Confirm your Email</p>
+                <input class="Input" type="text" name="email" placeholder="Email">
+                <p class="pTag">Password</p>
+                <input class="Input" type="password" name="password" placeholder="Password"><br>
+                <div id="childDiv">
+                    <input class="checkBox" type="checkbox">
+                    <p id=pTag>I agree to Unbounce's Terms of Service and Privacy Policy</p><br>
+                </div>
+                <button id="submitBtn">Sign Up with Email</button> -->
+            </div>
+        </div>
+
+        <div class="secondDiv">
+            <div class="headDiv">
+                <h2>Order Summary</h2>
+            </div>
+
+            <div class="planDiv">
+                <h4>Your Pricing Plan</h4>
+            </div>
+            <div class="planDiv">
+                <select id = "planList">  
+                    <option> Accelerate   $225 billed monthly</option>  
+                    <option> Launch   $90 billed monthly</option>  
+                    <option> Launch   $972 billed annually</option>  
+                    <option> Optimize   $135 billed monthly</option>  
+                    <option> Optimize   $1458 billed annually</option>  
+                    <option> Accelerate   $225 billed monthly</option>  
+                    <option> Accelerate   $2430 billed annually</option>  
+                    <option> Scale   $300 billed monthly</option>   
+                    <option> Scale   $3240 billed annually</option>  
+                </select>  
+                <p id="pTag">Optimize Plan Features ></p>
+            </div>
+            <div class="planpriceDiv">
+                <div class="planchildDiv"><h6>Total due in 14 days</h6></div>
+                <div class="planchildDiv"><h5>$1,000</h5></div>
+            </div>
+            <div class="planDiv">
+                <p class="ptag">If you have a coupon code, you can apply it at the next step</p>
+                <p class="ptag">*You will be billed 14 days from the date of signup unless<br>you cancel within the 14 day allotment. Your account will auto renew annually on the same date.</p>
+                <a href="">Interested in a Concierge plan? Let’s talk</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

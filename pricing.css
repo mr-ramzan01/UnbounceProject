@@ -1,0 +1,587 @@
+#pricingParentDiv{
+    text-align: center;
+    background-color: rgb(254, 249, 249);
+}
+
+#headDiv{
+    /* border: 2px solid red; */
+    height: 280px;
+    margin-top: 100px;
+}
+
+#buttonDiv{
+    /* border: 2px solid blue; */
+    height: 100px;
+}
+
+#pricingDiv{
+    /* border: 2px solid greenyellow; */
+    /* height: 800px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#compareDiv{
+    /* border: 2px solid green; */
+    height: 200px;
+}
+
+#footerDiv{
+    /* border: 2px solid brown; */
+    height: 800px;
+    background-color: #303030;
+    color: #fff;
+}
+
+#faqSection{
+    /* border: 2px solid teal; */
+    height: 1500px;
+    color: #303030;
+    margin-top: 68px;
+    padding-top: 30px;
+    scroll-behavior: smooth;
+}
+
+#priceDiv1{
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    margin-left: 150px;
+    background-color: white;
+}
+
+#priceDiv2{
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    background-color: white;
+    border: 3px solid rgb(178, 177, 177);
+}
+
+#priceDiv3{
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    background-color: white;
+}
+
+#priceDiv4{
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    margin-right: 150px;
+    background-color: white;
+}
+
+#buttonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.toggle-btn{
+    width: 65px;
+    height: 25px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.toggle-btn > .inner-circle{
+    width: 28px;
+    height: 28px;
+    background: gray;
+    border-radius: 50%;
+    margin-left: -3px;   
+    margin-top: -1.05px;
+}
+
+/* .toggle-btn.active{
+    background: #00acee;
+} */
+
+.toggle-btn.active > .inner-circle{
+    margin-left: 40px;
+}
+
+.toggle-btn.active + {
+
+}
+
+#headDiv >h1 {
+    font-family: "Barlow Semi Condensed",sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 115%;
+    padding-top: 80px;
+}
+
+#buttonDiv > h3{
+    margin-top: 7px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.infoDiv{
+    display: grid;
+
+}
+
+.infodivChild1{
+    margin-bottom: 40px;
+    font-family: barlow semi condensed,sans-serif;
+    font-size: 19px;
+}
+
+.infodivChild2{
+    font-size: 87px;
+    font-size: 4.83333rem;
+    line-height: .43;
+    font-family: barlow semi condensed,sans-serif;
+    color: #ffa1a1;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.infodivChild3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font-family: source sans pro,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.56;
+    letter-spacing: 0;
+}
+
+#info1{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 36px;
+    line-height: 115%;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    
+}
+
+#info2{
+    font-size: 17px;
+    font-family: source sans pro,sans-serif;
+    margin-bottom: 45px;
+}
+
+#info3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info4{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+img{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 200px;
+
+}
+
+.btn-outline-primary{
+    margin-top: 60px;
+    width: 280px;
+    height: 70px;
+    border-radius: 0%;
+    color: blue;
+    border-color: blue;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo1{
+    height: 150px;
+    width: 160px;
+    margin-top: -80px;
+    margin-left: -100px;
+}
+
+#ribbon{
+    width: 160px;
+    height: 32px;
+    border: 1px solid rgb(178, 177, 177);
+    background-color: rgb(178, 177, 177);
+    margin-left: 175px;
+    margin-top: -12px;
+    transform: rotate(-90deg)
+}
+
+#ribbon>h6{
+    margin-top: 10px;
+
+}
+
+.planName{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    margin-left: -150px;
+}
+
+.planName1{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    margin-left: -130px;
+    margin-top: 10px;
+}
+
+.planName2{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    margin-left: -150px;
+}
+
+.planName2{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    margin-left: -100px;
+}
+
+.priceChild{
+    display: flex;
+    font-family: "Barlow Semi Condensed",sans-serif;
+}
+
+.planPrice{
+    font-size: 60px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.pPrice{
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 47.5px;
+    margin-left: 2px;
+}
+
+.p1Price{
+    font-size: 18px;
+    margin-top: 42px;
+    margin-left: 3px;
+}
+
+.p2Price{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 4px;
+}
+
+.planFeature{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+ul{
+    list-style: none;
+    line-height: 45px;
+    text-align: left;
+    margin-left: -25px;
+}
+
+ul li:before{
+    content: '✔ ';
+}
+
+#subscribeBtn1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#subscribeBtn2{
+    margin-top: 23px;
+}
+
+#subscribeBtn3{
+    margin-top: 20px;
+}
+
+#subscribeBtn4{
+    margin-top: -38px;
+}
+
+
+
+section{
+    background-color: rgb(254, 249, 249);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mainLabel{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 42px;
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    padding-top: 30px;
+    color: rgb(69, 68, 68);
+    text-align: center;
+    position: relative;
+}
+
+label{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 26px;
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    padding-top: 30px;
+    color: rgb(69, 68, 68);
+    text-align: left;
+    position: relative;
+}
+
+label::after{
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    color: #666;
+    position: relative;
+    font-size: 22px;
+    content: "\271B";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#mainLabel::after{
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    color: #666;
+    position: relative;
+    font-size: 22px;
+    content: "\271B";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#sec{
+    display: none;
+}
+
+.faq{
+    color: #666;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    text-align: justify;
+    scroll-behavior: smooth;
+}
+
+#faqDiv{
+    color: #666;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    text-align: justify;
+    scroll-behavior: smooth;
+}
+
+#sec:checked + #mainLabel + #faqDiv{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+#s1:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+#s1:checked + label::after{
+    content: "\268A";
+    scroll-behavior: smooth;
+}
+
+#s1{
+    display: none;
+}
+
+.faqP{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.faqChild{
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    scroll-behavior: smooth;
+}
+
+#s2:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s2:checked + label::after{
+    content: "\268A";
+}
+
+#s2{
+    display: none;
+}
+
+#s3:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s3:checked + label::after{
+    content: "\268A";
+}
+
+#s3{
+    display: none;
+}
+
+#s4:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s4:checked + label::after{
+    content: "\268A";
+}
+
+#s4{
+    display: none;
+}
+
+#s5:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s5:checked + label::after{
+    content: "\268A";
+}
+
+#s5{
+    display: none;
+}
+
+#s6:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s6:checked + label::after{
+    content: "\268A";
+}
+
+#s6{
+    display: none;
+}
+
+#s7:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s7:checked + label::after{
+    content: "\268A";
+}
+
+#s7{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 667px) {
+    #pricingParentDiv{
+        display: block;
+    }
+    #buttonDiv{
+        margin-top: 200px;
+    }
+    #pricingDiv{
+        display: grid;
+    }
+    #priceDiv1{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+        padding-bottom: 5px;
+    }
+    #priceDiv2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+        padding-bottom: 45px;
+    }
+    #priceDiv3{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+        padding-bottom: 45px;
+    }
+    #priceDiv4{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 45px;
+    }
+
+}
