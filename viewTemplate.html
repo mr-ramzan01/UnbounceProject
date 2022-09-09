@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css">
     <title>Template Page</title>
     <script
       src="https://kit.fontawesome.com/a2c7043569.js"
@@ -20,19 +21,29 @@
     <link rel="stylesheet" href="./TemplateCss/template.css" />
   </head>
   <body>
-    <div id="navbar-Div"></div>
+    <div id="navbar-Div">
+      <nav class="navbar"></nav>
+      <div id="popUp"></div>
+    </div>
 
-    <button id="BackToTemplate">
-      <i class="fa-solid fa-chevron-left"></i> &nbsp; BACK TO TEMPLATE
-    </button>
-
-    <div id="TemplateDetails"></div>
-
-    <button id="makeityours">MAKE IT YOURS</button>
-
-    <div id="content">
-      <iframe id="frame" src="" width="100%"></iframe>
+    <div id="page">
+      <div id="small_screen"></div>
+      <button id="BackToTemplate">
+        <i class="fa-solid fa-chevron-left"></i> &nbsp; BACK TO TEMPLATE
+      </button>
+  
+      <div id="TemplateDetails"></div>
+  
+      <button id="makeityours">MAKE IT YOURS</button>
+  
+      <div id="content">
+        <iframe id="frame" src="" width="100%"></iframe>
+      </div>
+      <footer class="footer">
+            
+      </footer>
     </div>
   </body>
 </html>
 <script src="./viewTemplate.js" type="module"></script>
+<script src="./index.js" type="module"></script>

@@ -1,9 +1,13 @@
+import { footer } from "./components/footer.js";
+import { navbar } from "./components/navbar.js";
 import getData from "./utility folder/getData.js";
+navbar();
+footer();
 
 const templateContainer = document.getElementById("Template_Area");
 
 const displayTemplates = (data, parentNode) => {
-  window.scrollTo(0, 1000);
+  // window.scrollTo(0, 1000);
   parentNode.innerHTML = null;
   data.map((Template) => {
     let childDiv = document.createElement("div");
@@ -31,6 +35,7 @@ const displayTemplates = (data, parentNode) => {
     parentNode.append(childDiv);
   });
 };
+
 
 // {/* <p id="viewPageLink"><i class="fa-sharp fa-solid fa-arrow-right"></i> &nbsp; &nbsp;  VIEW THIS TEMPLATE</p> */}
 
@@ -191,3 +196,4 @@ selectTag.addEventListener("change", async () => {
     }
   }
 });
+

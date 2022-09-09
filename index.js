@@ -1,8 +1,12 @@
 import { footer } from "./components/footer.js";
 import { navbar } from "./components/navbar.js"
+import { popup } from "./components/popUp.js";
+import { smallScreen } from "./components/smallScreen.js";
 
 navbar();
 footer();
+popup();
+smallScreen();
 
 document.getElementById("n-searchLogo").addEventListener("click",() => {
     document.getElementById("n-input").style.display = "block"

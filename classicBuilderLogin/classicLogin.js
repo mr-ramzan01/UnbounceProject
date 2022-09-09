@@ -1,0 +1,28 @@
+document.getElementById("classbtn").addEventListener('click', async() => {
+    event.preventDefault();
+    let email = document.getElementById("classicemail").value;
+    let password = document.getElementById("classicpassword").value;
+
+    console.log(email,password);
+    try {
+        let data = await fetch(`http://localhost:8001/signUpUsers`);
+        let data2 = await data.json();
+        let flag = false;
+        console.log(data2,flag);
+        data2.map((el) => {
+            if(el.email===email && el.password===password) {
+                flag = true;
+            }
+        })
+        if(flag) {
+            alert("Successfully logged in");
+            location.href = "../index.html";
+        }
+        else {
+            alert("Invalid email or password");
+        }
+
+    } catch (error) {
+        console.log(error)
+    }
+})

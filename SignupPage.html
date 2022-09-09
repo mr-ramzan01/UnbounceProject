@@ -102,7 +102,7 @@
 
         try {
           console.log(obj)
-            const res = await axios.get("http://localhost:3000/profile")
+            const res = await axios.get("http://localhost:8001/profile")
             let profileData = await res.data;
           // console.log(profileData);
           
@@ -114,8 +114,7 @@
               }
             }
             
-
-            const response = await axios.post("http://localhost:3000/profile", obj)
+            const response = await axios.post("http://localhost:8001/profile", obj)
             console.log(response.data);
         } catch (e) {
           console.log(e);

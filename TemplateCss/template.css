@@ -5,7 +5,7 @@
   justify-content: space-around;
   margin: auto;
   padding: 10px;
-  margin-top: 120px;
+  padding-top: 120px;
 }
 #Template_MainHead {
   /* border: 2px solid black; */
@@ -17,6 +17,7 @@
   justify-content: space-around;
 }
 #Template_MainHead > h1 {
+  /* border: 1px solid green; */
   font-size: 72px;
   font-family: "barlow semi condensed", sans-serif;
   font-weight: 400;
@@ -91,21 +92,21 @@
   width: 23%;
 }
 #Filter_Template_parent1_child {
+  /* border: 1px solid blue; */
   position: sticky;
   top: 40px;
-  height: 700px;
+  /* height: 700px; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 15px;
+  padding: 15px 15px 15px 35px;
 }
 #Bytool_head {
   font-size: 14px;
   font-family: "source sance pro", sans-serif;
   font-weight: 600;
-  margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 #Bytool_head + ul > li {
-  margin-top: 20px;
+  margin-top: 10px;
   cursor: pointer;
   text-decoration: none;
   color: #4f4b4b;
@@ -192,7 +193,7 @@
   font-family: "source sance pro", sans-serif;
   font-size: 14px;
   cursor: pointer;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 #viewPageLink:hover {
   color: #0033ff;
@@ -219,12 +220,15 @@
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
+  padding: 0 20px;
 }
 #h1Temp {
+  /* border: 1px solid green; */
   font-family: "barlow semi condensed", sans-serif;
   font-weight: 100;
   line-height: 20px;
   color: #3f3f3f;
+  margin-bottom: 20px;
   text-transform: capitalize;
 }
 #h1Temp + div {
@@ -275,9 +279,7 @@
     overflow-y: hidden; */
   box-sizing: content-box;
 }
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 /* <!--  media quieres for template top --> */
 

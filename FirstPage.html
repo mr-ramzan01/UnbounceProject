@@ -15,7 +15,7 @@
                 <p>Choose an account to log into</p>
             </div>
             <div id="inside-container">
-                <div class = smalll-container>
+                <div class = smalll-container onclick="displayClassicLogin()">
                     <p>Login</p>
                     <p>Smarter Builder & Classic Builder</p>
                 </div>
@@ -40,5 +40,8 @@
 <script>
     function loginPart(event){
         window.location.href = "Login.html"
+    }
+    function displayClassicLogin(event){
+        window.location.href = "./classicBuilderLogin/classbuilder.html"
     }
 </script>

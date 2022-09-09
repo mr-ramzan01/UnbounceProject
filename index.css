@@ -52,6 +52,7 @@
 }
 .navbar i {
     font-size: 12px;
+    margin-left: 3px;
 }
 .n-searchDiv {
     display: flex;
