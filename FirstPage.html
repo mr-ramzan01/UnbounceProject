@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="FirstPage.css">
+</head>
+<body>
+    <div id = Bigcontainer>
+        <div class = container>
+            <div class="small-container">
+                <img src="https://d9hhrg4mnvzow.cloudfront.net/unbounce.com/product-selector/7089096e-d22ffb13-logo-unbounce.svg" alt="unbounce">
+                <p>Choose an account to log into</p>
+            </div>
+            <div id="inside-container">
+                <div class = smalll-container>
+                    <p>Login</p>
+                    <p>Smarter Builder & Classic Builder</p>
+                </div>
+                <div class = smalll-container onclick="loginPart(event)">
+                    <p>Login</p>
+                    <p>Smart Copy <span>Formerly Snazzy.AI</span></p>
+                </div>
+            </div>
+            <div class = small-container>
+                <div class = Verysmalll-container>
+                    <p>Need Help</p>
+                </div>
+            </div>
+            
+        </div>
+        <div id = container>
+            <img src="unbound 1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function loginPart(event){
+        window.location.href = "Login.html"
+    }
+</script>

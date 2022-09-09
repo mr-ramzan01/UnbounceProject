@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signupPage.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <!-- start signup part -->
+    <div id = Bigcontainer>
+      <div class = container>
+          <div class="small-container1">
+              <img src="https://d9hhrg4mnvzow.cloudfront.net/unbounce.com/product-selector/7089096e-d22ffb13-logo-unbounce.svg" alt="unbounce">
+              <span>Smart Copy</span>
+          </div>
+          <div id="inside-container">
+            <form id = "details">
+              <label for="input"> <h6> Full Name </h6>
+                  <input type="text" name="name" placeholder="Name" id="name" required />
+              </label>
+            
+              <label for="input"><h6> Company </h6>
+                  <input type="text" name="company" placeholder="MyCompany" id="company" />
+              </label>
+            
+              <label for="input"><h6> Bussiness-Email </h6>
+                    <input
+                    type="email"
+                    name="email"
+                    placeholder="Bussiness-Email"
+                    id="bussiness"
+                    required
+                />
+              </label>
+              <label for="select"> <h6> Plan </h6>
+                <select name="Payment" id="payment" style = "border: none; border-bottom: 1px solid black;">
+                    <option value=""></option>
+                    <option value="Free-Forever">Free-Forever</option>
+                    <option value="Billed Monthly">Essential - $19 Billed Monthly</option>
+                    <option value="Billed Annualy">Essential - $180 Billed Annualy</option>
+                    <option value="Unlimited Monthly">Unlimited - $49 Billed Monthly</option>
+                    <option value="Unlimited Annualy">Unlimited - $480 Billed Annualy</option>
+                  </select>
+              </label>
+              <label for="input"><h6> Password </h6>
+                <input type="password" id="password" placeholder="Password" />
+              </label>
+              
+              <label for="input"><h6> Confirm Password </h6>
+                <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm Password"
+        
+              />
+              </label>
+              
+              <input type="button" onclick="data(event)" value="Continue" />
+              
+            
+          </form>
+          </div>
+          <div class = small-container2>
+              
+               <div >
+                 <p onclick="existingUSer()">Have an account already? Sign in now!</p> 
+               </div>
+                <div>
+                   By signing up you agree to the following <span > Terms & Conditions</span> and <span >Privacy Policy</span> 
+                </div>              
+          </div>
+          
+      </div>
+      
+  </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      async function data(event) {
+        event.preventDefault();
+        var obj = {
+          name: document.getElementById("name").value,
+          company: document.getElementById("company").value,
+          email: document.getElementById("bussiness").value,
+          payment: document.getElementById("payment").value,
+          password: document.getElementById("password").value,
+          confirm_password: document.getElementById("confirmPassword").value,
+        };
+
+        if (obj.name === "" || obj.email === ""){
+            alert("Name and Email required");
+            return;
+
+          } else if (obj.password != obj.confirm_password){
+            alert("Confirm Password not same as Password");
+            return;
+          } 
+
+        try {
+            const res = await axios.get("http://localhost:3000/profile")
+            let profileData = await res.data;
+          // console.log(profileData);
+          
+          let iauaerVilBLE = false;
+            for (let user of profileData){
+              if (user.email === obj.email){
+                alert("Email already register.... Please login !!!")
+                return
+              }
+            }
+            
+
+            const response = await axios.post("http://localhost:3000/profile", obj)
+            console.log(response.data);
+        } catch (e) {
+          console.log(e);
+        }
+        deleteVal();
+      }
+      function deleteVal(){
+        document.getElementById("name").value = "";
+        document.getElementById("company").value = "";
+        document.getElementById("bussiness").value = "";
+        document.getElementById("payment").value = "";
+        document.getElementById("password").value = "";
+        document.getElementById("confirmPassword").value = "";
+      }
+
+      function existingUSer(){
+        window.location.href = "Login.html"
+      }
+      
+
+    </script>
+    <!-- end signup part -->
+  </body>
+</html>
