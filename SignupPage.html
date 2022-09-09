@@ -23,7 +23,7 @@
               </label>
             
               <label for="input"><h6> Company </h6>
-                  <input type="text" name="company" placeholder="MyCompany" id="company" />
+                  <input type="text" name="company" placeholder="My Company" id="company" />
               </label>
             
               <label for="input"><h6> Bussiness-Email </h6>
@@ -58,7 +58,7 @@
               />
               </label>
               
-              <input type="button" onclick="data(event)" value="Continue" />
+              <input type="button" id="signup_continue_btn" value="Continue" />
               
             
           </form>
@@ -66,7 +66,7 @@
           <div class = small-container2>
               
                <div >
-                 <p onclick="existingUSer()">Have an account already? Sign in now!</p> 
+                 <p id="existing">Have an account already? Sign in now!</p> 
                </div>
                 <div>
                    By signing up you agree to the following <span > Terms & Conditions</span> and <span >Privacy Policy</span> 
@@ -79,7 +79,7 @@
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-      async function data(event) {
+      document.getElementById("signup_continue_btn").addEventListener("click", async() => {
         event.preventDefault();
         var obj = {
           name: document.getElementById("name").value,
@@ -89,6 +89,7 @@
           password: document.getElementById("password").value,
           confirm_password: document.getElementById("confirmPassword").value,
         };
+        // console.log(obj)
 
         if (obj.name === "" || obj.email === ""){
             alert("Name and Email required");
@@ -100,6 +101,7 @@
           } 
 
         try {
+          console.log(obj)
             const res = await axios.get("http://localhost:3000/profile")
             let profileData = await res.data;
           // console.log(profileData);
@@ -119,7 +121,7 @@
           console.log(e);
         }
         deleteVal();
-      }
+      })
       function deleteVal(){
         document.getElementById("name").value = "";
         document.getElementById("company").value = "";
@@ -127,13 +129,13 @@
         document.getElementById("payment").value = "";
         document.getElementById("password").value = "";
         document.getElementById("confirmPassword").value = "";
+        location.href= "Login.html"
       }
 
-      function existingUSer(){
+      document.getElementById("existing").addEventListener("click",() => {
         window.location.href = "Login.html"
-      }
+      })
       
-
     </script>
     <!-- end signup part -->
   </body>

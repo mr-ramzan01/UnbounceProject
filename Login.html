@@ -30,12 +30,12 @@
                         </div>
                     </div>
                     <div>
-                        <input type="submit" onclick = getData(event) id = "button" value = "Sing In">
+                        <input type="submit" id = "button" value = "Sign In">
                     </div>
                     
                 </form>
                 <div>
-                    <p style = "color : blue; cursor: pointer;" onclick="newUser() ">No account yet? Sign up now!</p>
+                    <p style = "color : blue; cursor: pointer;" id="login_new_user">No account yet? Sign up now!</p>
                 <p style = "color : rgba(67, 58, 58, 0.947)">By signing up you agree to the following  <span style="text-decoration: underline;">Terms & Conditions</span> and <span style="text-decoration: underline;"> Privacy Policy </span></p>   
                 </div>                
                 
@@ -52,12 +52,11 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </html>
 <script>
-    function newUser(){
+    document.getElementById("login_new_user").addEventListener("click", () => {
         window.location.href = "SignupPage.html"
-    }
-   async function getData(event){
+    })
+    document.getElementById("button").addEventListener("click" , async (event) => {
         event.preventDefault() ;
-        
         var obj = {
           Email: document.getElementById("Email").value,
           diffPassword: document.getElementById("diffPassword").value,
@@ -66,7 +65,6 @@
         if (obj.Email === "" && obj.diffPassword === ""){
             alert("Email and password required");
             return;
-              
           } 
 
         try {
@@ -74,11 +72,9 @@
             
             const res = await axios.get("http://localhost:3000/profile")
             let profileData = await res.data;
-          console.log(profileData);
-          let flag = false;
+            let flag = false;
             for (let user of profileData){
               if (user.email === obj.Email && user.password == obj.diffPassword){
-                console.log(true);
                 flag = true;
                 break;
                 
@@ -86,11 +82,13 @@
             }
             if(flag == true){
                 alert("Login Successful")
+                location.href="./index.html"
             }else{
                 alert("Invalid user")
             }
         }catch(e){
             console.log(e);
         }
-    }
+    })
+
 </script>

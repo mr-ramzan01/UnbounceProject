@@ -106,7 +106,7 @@ input{
  }
  /* submit button */
  input[type = button]{
-    background-color: blue;
+    background-color: #0033ff;
     align-items: center;
     padding: 10px;
     border-radius: 3px;
@@ -115,6 +115,10 @@ input{
     border: none;
     margin-top: 20px;
     margin-left: 50%;
+    cursor: pointer;
+ }
+ input[type = button]:hover {
+    background-color: #0e2581;
  }
  
  input, select {

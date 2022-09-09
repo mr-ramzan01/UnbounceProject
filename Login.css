@@ -44,20 +44,21 @@
     border: 0ch;
     border-bottom: 1px solid black;
     height: 2.5rem;
+    outline: none;
  }
  input[type=submit]{
     height: 2.8rem;
-    background-color: rgba(38, 38, 235, 0.92);
+    background-color: #0033ff;
     color: aliceblue;
     font-weight: 600;
     font-size: 18px;
     cursor: pointer;
     border: 0ch;
     border-radius: 2px;
+   
  }
- #button :hover{
-    background-color: rgb(21, 21, 226);
-    color: red;
+ #button:hover{
+    background-color: rgb(6, 6, 138);
  }
  
  @media screen and (max-width : 1250px) {
