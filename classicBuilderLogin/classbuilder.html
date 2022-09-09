@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unbounce: The Landing Page and conversion Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2c7043569.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif@1&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+           overflow: hidden;
+        }
+        #classBuilderLoginParent{
+            margin: 0;
+            display: flex;
+            /* border: 1px solid red; */
+            justify-content: space-between;
+            
+           margin: auto;
+        }
+
+        iframe{
+            width: 800px;
+            height: 800px;
+        }
+        #classicChild1{
+            margin-top: -20px;
+            margin-bottom: -80px;
+            /* border: 1px solid blue; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #classicchild2{
+         margin-top: -50px;
+        /* border: 1px solid crimson; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 60%;
+        height: 80%;
+        justify-content: center;
+         font-family:'source sance pro',sans-serif ;
+         padding: 20px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+      
+   #classicform input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid 
+#8091a8d4;
+   }
+   #classicform input:focus{
+    outline: none;
+    border: 2px solid rgb(0, 0, 255);
+   }
+
+label{
+    color: #606060;
+    font-size: 15px;
+}
+#classbtn{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #0033ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.unbouncelogo{
+    margin-top: -40px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 47px;
+    background-size: 120px;
+    background:url(https://app.unbounce.com/app_assets/logo/unbounce-identity-gray-db7ebfd2fef7d62e9a9291a4bfa9c5de863e0be6523b437b87c16d27f0015412.svg) ;
+    background-repeat: no-repeat;
+}
+#classicform{
+    margin-top: 40px;
+}
+#googleimgClassic{
+    width: 7%;
+    margin-bottom: -2px;
+    margin-left: -2px;
+}
+#googlebtn{
+    font-family:'source sance pro',sans-serif ;
+    color: #6d6d6d;
+    font-size: 18px;
+    padding: 18px 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    background-color: none;
+}
+
+@media screen and (min-width:1128px) and (max-width:1250px){
+    iframe{
+        display: none;
+    }
+    #classicChild1{
+     
+        width: 55%;
+        margin: auto;
+    }
+    #classicchild2{
+        margin: auto;
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1127px){
+    iframe{
+        display: none;
+    }
+    #classicChild1{
+     
+     width: 70%;
+     margin: auto;
+ }
+ #classicchild2{
+     margin: auto;
+     margin-top: 60px;
+ }
+}
+@media screen and (min-width: 480px) and (max-width:767px){
+    iframe{
+        display: none;
+    }
+    #classicChild1{
+     
+     width: 90%;
+     margin: auto;
+ }
+ #classicchild2{
+     margin: auto;
+     margin-top: 60px;
+ }
+}
+@media screen and (max-width:480px){
+    iframe{
+        display: none;
+    }
+    #classicChild1{
+     
+     width: 100%;
+     margin: auto;
+ }
+ #classicchild2{
+     margin: auto;
+     margin-top: 60px;
+ }
+ #googlebtn{
+    font-size: 12px;
+    padding: 14px 40px;
+ }
+ #googleimgClassic{
+    width: 8%;
+    margin-bottom: -2px;
+    margin-left: -2px;
+ }
+}
+    </style>
+</head>
+<body>
+    <div id="classBuilderLoginParent">
+        <div id="classicChild1">
+            <div id="classicchild2"> 
+          <div class="unbouncelogo"></div>
+          <h2 style="color: #606060; font-size: 21px; font-weight:500;">Sign into Your Unbounce Account</h2>
+           <h4 style="font-size:14px; color:#AAAAAA; font-weight: 500;">Need an Unbounce Account? <span style="color:blue; cursor: pointer; font-size:14px; font-weight:600;">Create an account</span></h4>    
+           <form action="" id="classicform">
+            <label for="">Email</label>
+            <input type="email" id="classicemail">
+            <label for="">Password</label>
+            <input type="password" name="" id="classicpassword">
+             <span style="font-size: 15px; color:#808080;"><input style="width: 4%;" type="checkbox" name="" id="">Remember this browser for 2 weeks <span style="color:blue;">Forgot Password?
+            </span></span>
+            <input type="submit" value="Sign In" id="classbtn" style="padding: 18px 40px;">
+           </form>
+           <h4 style="text-align: center; color: #606060;">or</h4>
+          
+           <button id="googlebtn" style="font-weight: 600px;"> <img id="googleimgClassic" src="https://app.unbounce.com/app_assets/svg/google-icon-1553313c16ee72c905f02b21327275d51d2326fe6f781996bc2a831d930a742c.svg" alt="">Sign In with Google</button>
+             </div>
+        </div>
+        <div>
+            <iframe scrolling="no" src="https://signin.unbounce.com/sign-in-advertising-prod/" frameborder="0"></iframe>
+        </div>
+    </div>
+</body>
+</html>
