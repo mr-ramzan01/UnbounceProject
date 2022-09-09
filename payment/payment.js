@@ -7,7 +7,7 @@ document.getElementById("submit_signup_btn").addEventListener("click",() => {
         password: document.getElementById("password").value,
     } 
     console.log(signup_user_details);
-    fetch('http://localhost:8001/signUpUsers', {
+    fetch('https://fake-server-app-by-me.herokuapp.com/signUpUsers', {
         method:"POST",
         body: JSON.stringify(signup_user_details),
         headers: {
@@ -17,7 +17,7 @@ document.getElementById("submit_signup_btn").addEventListener("click",() => {
     location.href="./payment2.html"
 })
 document.getElementById("submit_signup_btn2").addEventListener("click",() => {
-    alert("signUp")
+    alert("signUp Successfully");
     let signup_user_details = {
         first_name: document.getElementById("first_name").value,
         last_name: document.getElementById("last_name").value,
@@ -25,7 +25,7 @@ document.getElementById("submit_signup_btn2").addEventListener("click",() => {
         password: document.getElementById("password").value,
     } 
     console.log(signup_user_details);
-    fetch('http://localhost:8001/signUpUsers', {
+    fetch('https://fake-server-app-by-me.herokuapp.com/signUpUsers', {
         method:"POST",
         body: JSON.stringify(signup_user_details),
         headers: {

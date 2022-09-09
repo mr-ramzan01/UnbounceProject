@@ -41,7 +41,7 @@ const displayTemplates = (data, parentNode) => {
 
 const getTemplate = async () => {
   try {
-    let data = await getData(`http://localhost:8001/Templates`);
+    let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates`);
     //console.log(data);
     displayTemplates(data, templateContainer);
   } catch (error) {
@@ -60,7 +60,7 @@ let Second_li = document.getElementById("li_filter2");
 Second_li.addEventListener("click", async function () {
   let second = document.getElementById("li_filter2").innerText;
   let data = await getData(
-    `http://localhost:8001/Templates?category=${second}`
+    `https://fake-server-app-by-me.herokuapp.com/Templates?category=${second}`
   );
   changingData = data;
   displayTemplates(data, templateContainer);
@@ -69,7 +69,7 @@ Second_li.addEventListener("click", async function () {
 let third_li = document.getElementById("li_filter3");
 third_li.addEventListener("click", async function () {
   let third = "landing page";
-  let data = await getData(`http://localhost:8001/Templates?category=${third}`);
+  let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates?category=${third}`);
   changingData = data;
   displayTemplates(data, templateContainer);
 });
@@ -77,7 +77,7 @@ let fourth_li = document.getElementById("li_filter4");
 fourth_li.addEventListener("click", async function () {
   let fourth = "Popups";
   let data = await getData(
-    `http://localhost:8001/Templates?category=${fourth}`
+    `https://fake-server-app-by-me.herokuapp.com/Templates?category=${fourth}`
   );
   changingData = data;
   displayTemplates(data, templateContainer);
@@ -85,7 +85,7 @@ fourth_li.addEventListener("click", async function () {
 let fifth_li = document.getElementById("li_filter5");
 fifth_li.addEventListener("click", async function () {
   let fifth = "Sticky Bars";
-  let data = await getData(`http://localhost:8001/Templates?category=${fifth}`);
+  let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates?category=${fifth}`);
   changingData = data;
   displayTemplates(data, templateContainer);
 });
@@ -102,7 +102,7 @@ firsttype_li.addEventListener("click", async function () {
     displayTemplates(data, templateContainer);
     changingData = undefined;
   } else {
-    let data = await getData(`http://localhost:8001/Templates?type=${first}`);
+    let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates?type=${first}`);
     displayTemplates(data, templateContainer);
   }
 });
@@ -117,7 +117,7 @@ Secondtype_li.addEventListener("click", async function () {
     displayTemplates(data, templateContainer);
     changingData = undefined;
   } else {
-    let data = await getData(`http://localhost:8001/Templates?type=${second}`);
+    let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates?type=${second}`);
     displayTemplates(data, templateContainer);
   }
 });
@@ -132,7 +132,7 @@ thirdtype_li.addEventListener("click", async function () {
     displayTemplates(data, templateContainer);
     changingData = undefined;
   } else {
-    let data = await getData(`http://localhost:8001/Templates?type=${third}`);
+    let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates?type=${third}`);
     displayTemplates(data, templateContainer);
   }
 });
@@ -146,7 +146,7 @@ fourthtype_li.addEventListener("click", async function () {
     displayTemplates(data, templateContainer);
     changingData = undefined;
   } else {
-    let data = await getData(`http://localhost:8001/Templates?type=${fourth}`);
+    let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates?type=${fourth}`);
     displayTemplates(data, templateContainer);
   }
 });
@@ -161,7 +161,7 @@ fifthtype_li.addEventListener("click", async function () {
     changingData = undefined;
     console.log(data);
   } else {
-    let data = await getData(`http://localhost:8001/Templates?type=${fifth}`);
+    let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates?type=${fifth}`);
     displayTemplates(data, templateContainer);
   }
 });
@@ -175,7 +175,7 @@ sixthtype_li.addEventListener("click", async function () {
     displayTemplates(data, templateContainer);
     changingData = undefined;
   } else {
-    let data = await getData(`http://localhost:8001/Templates?type=${sixth}`);
+    let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates?type=${sixth}`);
     displayTemplates(data, templateContainer);
   }
 });
@@ -188,7 +188,7 @@ selectTag.addEventListener("change", async () => {
     getTemplate();
   } else {
     try {
-      let res = await fetch(`http://localhost:8001/Templates?category=${val}`);
+      let res = await fetch(`https://fake-server-app-by-me.herokuapp.com/Templates?category=${val}`);
       let data = await res.json();
       displayTemplates(data, templateContainer);
     } catch (error) {

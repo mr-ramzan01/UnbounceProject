@@ -37,7 +37,7 @@ let displayContent = (data, content) => {
 let content = document.getElementById("content");
 let mainfn = async () => {
   try {
-    let data = await getData(`http://localhost:8001/Templates/${Template_Id}`);
+    let data = await getData(`https://fake-server-app-by-me.herokuapp.com/Templates/${Template_Id}`);
     displayContent(data, content);
   } catch (error) {
     console.log(error);

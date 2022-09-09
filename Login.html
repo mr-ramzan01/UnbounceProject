@@ -70,7 +70,7 @@
         try {
             
             
-            const res = await axios.get("http://localhost:8001/profile")
+            const res = await axios.get("https://fake-server-app-by-me.herokuapp.com/profile")
             let profileData = await res.data;
             let flag = false;
             for (let user of profileData){
