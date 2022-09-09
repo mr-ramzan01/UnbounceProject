@@ -312,3 +312,11 @@ setTimeout(() => {
     
     },5000)
 },2500)
+
+
+
+
+
+document.getElementById('s_s_price_click').addEventListener('click', () => {
+    location.href = "./pricing.html"
+})

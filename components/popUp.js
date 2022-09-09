@@ -87,7 +87,7 @@ export const popup = () => {
                             <img src="./images/templates.png" alt="">
                         </div>
                         <div>
-                            <a href="/UnbounceProject/template.html">Templates</a>
+                            <a href="./template.html">Templates</a>
                         </div>
                     </div>
                     <div>
@@ -261,7 +261,7 @@ export const popup = () => {
                         <a href="">Customer Stories & Case Studies</a>
                     </div>
                     <div>
-                        <a href="/UnbounceProject/blog.html">Blog</a>
+                        <a href="./blog.html">Blog</a>
                     </div>
                     <div>
                         <a href="">Resource Library</a>

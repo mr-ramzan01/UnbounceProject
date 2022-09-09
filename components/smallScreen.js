@@ -9,7 +9,7 @@ export const smallScreen = () => {
                     <h3 id="s_s_solutions_click">Solutions</h3>
                 </div>
                 <div class="s_s_heading"> 
-                    <h3>Pricing</h3>
+                    <h3 id="s_s_price_click" >Pricing</h3>
                 </div>
                 <div class="s_s_heading">
                     <h3 id="s_s_learn_click">Learn</h3>
@@ -23,7 +23,7 @@ export const smallScreen = () => {
                     </a>
                 </div>
                 <div class="s_s_login">
-                    <a href="/UnbounceProject/FirstPage.html">
+                    <a href="./FirstPage.html">
                         <button>Login</button>
                     </a>
                 </div>
@@ -116,7 +116,7 @@ export const smallScreen = () => {
                                 <img src="./images/templates.png" alt="">
                             </div>
                             <div>
-                                <a href="/UnbounceProject/template.html">Templates</a>
+                                <a href="./template.html">Templates</a>
                             </div>
                         </div>
                         <div>
@@ -199,7 +199,7 @@ export const smallScreen = () => {
                             <a href="">Customer Stories & Case Studies</a>
                         </div>
                         <div>
-                            <a href="/UnbounceProject/blog.html">Blog</a>
+                            <a href="./blog.html">Blog</a>
                         </div>
                         <div>
                             <a href="">Resource Library</a>

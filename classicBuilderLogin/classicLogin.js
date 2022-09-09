@@ -11,6 +11,8 @@ document.getElementById("classbtn").addEventListener('click', async() => {
         console.log(data2,flag);
         data2.map((el) => {
             if(el.email===email && el.password===password) {
+                localStorage.setItem("classicLoginEmail",(email));
+                localStorage.setItem("classicLoginPassword",(password));
                 flag = true;
             }
         })
@@ -25,4 +27,8 @@ document.getElementById("classbtn").addEventListener('click', async() => {
     } catch (error) {
         console.log(error)
     }
+})
+
+document.getElementById("goToPricing").addEventListener("click", () => {
+    location.href="../pricing.html";
 })

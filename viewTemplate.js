@@ -47,6 +47,31 @@ let mainfn = async () => {
 mainfn();
 
 let makeityoursbtn = document.getElementById("makeityours");
-makeityoursbtn.addEventListener("click", () => {
-  //  window.open()
+makeityoursbtn.addEventListener("click", async() => {
+  let email = localStorage.getItem("classicLoginEmail");
+  let password = localStorage.getItem("classicLoginPassword");
+
+  console.log(email,password);
+  try {
+      let data = await fetch(`https://fake-server-app-by-me.herokuapp.com/signUpUsers`);
+      let data2 = await data.json();
+      let flag = false;
+      console.log(data2,flag);
+      data2.map((el) => {
+          if(el.email===email && el.password===password) {
+              flag = true;
+          }
+      })
+      if(flag) {
+          alert("Now you can build your pages with this layout");
+          location.href = "./index.html";
+      }
+      else {
+          alert("You are not correct user");
+          location.href = "./pricing.html"
+      }
+
+  } catch (error) {
+      console.log(error)
+  }
 });

@@ -1,7 +1,7 @@
 export const navbar = () => {
     document.querySelector(".navbar").innerHTML = `
     <div>
-            <div class="n-imageDiv"><a href="/UnbounceProject/index.html"><img id="n-logo" src="https://unbounce.com/wp-content/themes/unbounce2019/assets/img/unbounce-icon.svg?v=1" alt=""></a></div>
+            <div class="n-imageDiv"><a href="./index.html"><img id="n-logo" src="https://unbounce.com/wp-content/themes/unbounce2019/assets/img/unbounce-icon.svg?v=1" alt=""></a></div>
             <div class="n-products">
                 <a href="">
                     <div class="n-products_click" >Products</div>
@@ -15,7 +15,7 @@ export const navbar = () => {
                 </a>
             </div>
             <div class="n-pricing">
-                <a href="">Pricing</a>
+                <a href="./pricing.html">Pricing</a>
             </div>
             <div class="n-learn">
                 <a href="">
@@ -32,7 +32,7 @@ export const navbar = () => {
             </div>
             <div class="n-login">
                 <div>
-                    <a href="/UnbounceProject/FirstPage.html">Log In</a>
+                    <a href="./FirstPage.html">Log In</a>
                 </div>
             </div>
             <div class="n-freeTrial">
