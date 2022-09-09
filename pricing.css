@@ -103,7 +103,7 @@
 }
 
 .toggle-btn.active + {
-    
+
 }
 
 #headDiv >h1 {
@@ -547,3 +547,41 @@ label::after{
     display: none;
 }
 
+
+
+
+@media screen and (max-width: 667px) {
+    #pricingParentDiv{
+        display: block;
+    }
+    #buttonDiv{
+        margin-top: 200px;
+    }
+    #pricingDiv{
+        display: grid;
+    }
+    #priceDiv1{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+        padding-bottom: 5px;
+    }
+    #priceDiv2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+        padding-bottom: 45px;
+    }
+    #priceDiv3{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+        padding-bottom: 45px;
+    }
+    #priceDiv4{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 45px;
+    }
+
+}
