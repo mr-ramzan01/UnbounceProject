@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./payment.css">
+    <title>Payment</title>
+</head>
+<body>
+    <div class="payment_header">
+        <div>
+            <a href="">
+                <img src="https://unbounce.com/wp-content/themes/unbounce2019/assets/img/unbounce-icon-dark.svg?v=1" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="blue_circle_div">
+        <div>
+            <div class="payment_change_div">
+                <div class="blue_done1">1</div>
+                <div>Account Info</div>
+            </div>
+            <div class="payment_change_div">
+                <div class="blue_done2">2</div>
+                <div>Biling Info</div>
+            </div>
+            <div class="payment_change_div">
+                <div class="blue_done3">3</div>
+                <div>Email Confirmation</div>
+            </div>
+        </div>
+    </div>
+    <div class="payment_div1">
+        <div>
+            <div class="signup_signup">
+                <div class="signup_headers">
+                    <h2>Create your <span id="sign_up_plan"></span></h2>
+                </div>
+                <div class="signup_biling_name">
+                    <div>
+                        <label >Biling First Name*</label><br>
+                        <input id="first_name" type="text" name="" >
+                    </div>
+                    <div>
+                        <label >Biling Last Name*</label><br>
+                        <input id="last_name" type="text" name="" >
+                    </div>
+                </div>
+                <div class="signup_email_password">
+                    <label >Company</label><br>
+                    <input type="text"id="email">
+                </div>
+                <div class="signup_email_password">
+                    <label >Phone Number*</label><br>
+                    <input type="text">
+                </div>
+                <div class="signup_email_password">
+                    <label >Address*</label><br>
+                    <input type="text" name="" placeholder="Enter a location">
+                </div>
+                <div class="signup_email_password">
+                    <label >State*</label><br>
+                    <input type="text" name="">
+                </div>
+                <div class="signup_biling_name">
+                    <div>
+                        <label >ZIP Code*</label><br>
+                        <input type="text" name="" >
+                    </div>
+                    <div>
+                        <label >Country*</label><br>
+                        <input  type="text" name="" >
+                    </div>
+                </div>
+                <div class="payment_paypal_logo">
+                    <img src="../images/paypal logo.png" alt="">
+                </div>
+                <div class="hrdiv">
+                    <div class="sign_up_or_line"></div>
+                    <div>or</div>
+                    <div class="sign_up_or_line"></div>
+                </div>
+                <div class="signup_email_password">
+                    <label >Credit Card*</label><br>
+                    <input type="text" name="">
+                </div>
+                <div class="signup_biling_name">
+                    <div>
+                        <label >Expiry Date*</label><br>
+                        <input type="text" name="" >
+                    </div>
+                    <div>
+                        <label >Security Code*</label><br>
+                        <input  type="text" name="" >
+                    </div>
+                </div>
+
+                <div class="payment_pay">
+                    <button id="payment_btn">Start My Free 14 Day Trial</button>
+                </div>
+            </div>
+            <div class="signup_payments">
+                <div>
+                    <div class="signup_headers">
+                        <h2>Order Summary</h2>
+                    </div>
+                    <div class="sign_up_launch_plan_features">
+                        <h4>Launch Plan</h4>
+                    </div>
+                    <div class="sign_up_total_due_div">
+                        <div>Total due in 14 days</div>
+                        <div id="signup_total_due"></div>
+                    </div>
+                    <div class="sign_up_same">
+                        <p>*Your billing cycle will be every month for $90.00.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="sign_up_ques">
+                        <h4>Frequently Asked Questions:</h4>
+                    </div>
+                    <div class="sign_up_fq">
+                        <h5>Will I be billed during the trial?</h5>
+                        <p>Nope! You will only be billed after your 14-day trial if you choose not to cancel. We’ll send an e-mail reminder near the end of the trial.</p>
+                    </div>
+                    <div class="sign_up_fq">
+                        <h5>Can I cancel during my trial?</h5>
+                        <p>Certainly! You can cancel at any time, just go to your account dashboard and click “Manage Account”.</p>
+                    </div>
+                    <div class="sign_up_fq">
+                        <h5>Can I change plans?</h5>
+                        <p>Of course! You can change plans or switch between monthly/annual billing via your account dashboard.</p>
+                    </div>
+                    <div>
+                        <img src="../images/SSL secure.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small_screen">
+        <div class="signup_s_s">
+            <div class="signup_headers">
+                <h2>Order Summary</h2>
+            </div>
+            <div class="sign_up_launch_plan_features">
+                <h4>Launch Plan</h4>
+            </div>
+            <div class="sign_up_total_due_div">
+                <div>Total due in 14 days</div>
+                <div id="signup_total_due3"></div>
+            </div>
+            <div class="sign_up_same">
+                <p>*Your billing cycle will be every month for $90.00.</p>
+            </div>
+        </div>
+        <div class="signup_signup2">
+            <div class="signup_headers">
+                <h2>Create your<span id="sign_up_plan3"></span></h2>
+            </div>
+            <div class="signup_biling_name">
+                <div>
+                    <label >Biling First Name*</label><br>
+                    <input id="first_name" type="text" name="" >
+                </div>
+                <div>
+                    <label >Biling Last Name*</label><br>
+                    <input id="last_name" type="text" name="" >
+                </div>
+            </div>
+            <div class="signup_email_password">
+                <label >Company</label><br>
+                <input type="text"id="email">
+            </div>
+            <div class="signup_email_password">
+                <label >Phone Number*</label><br>
+                <input type="text">
+            </div>
+            <div class="signup_email_password">
+                <label >Address*</label><br>
+                <input type="text" name="" placeholder="Enter a location">
+            </div>
+            <div class="signup_email_password">
+                <label >State*</label><br>
+                <input type="text" name="">
+            </div>
+            <div class="signup_biling_name">
+                <div>
+                    <label >ZIP Code*</label><br>
+                    <input type="text" name="" >
+                </div>
+                <div>
+                    <label >Country*</label><br>
+                    <input  type="text" name="" >
+                </div>
+            </div>
+            <div class="payment_paypal_logo">
+                <img src="../images/paypal logo.png" alt="">
+            </div>
+            <div class="hrdiv">
+                <div class="sign_up_or_line"></div>
+                <div>or</div>
+                <div class="sign_up_or_line"></div>
+            </div>
+            <div class="signup_email_password">
+                <label >Credit Card*</label><br>
+                <input type="text" name="">
+            </div>
+            <div class="signup_biling_name">
+                <div>
+                    <label >Expiry Date*</label><br>
+                    <input type="text" name="" >
+                </div>
+                <div>
+                    <label >Security Code*</label><br>
+                    <input  type="text" name="" >
+                </div>
+            </div>
+
+            <div class="payment_pay">
+                <button id="payment_btn2">Start My Free 14 Day Trial</button>
+            </div>
+        </div>
+    </div>
+    <div class="otp_div">
+        <div>
+            <div class="otp_heading">
+                <h3>Enter 4 digit otp send to your email</h3>
+            </div>
+            <div class="otp_input_box">
+                <div>
+                    <div><input type="text" maxlength="1"></div>
+                    <div><input type="text" maxlength="1"></div>
+                    <div><input type="text" maxlength="1"></div>
+                    <div><input type="text" maxlength="1"></div>
+                </div>
+            </div>
+            <div class="email_confirmation">
+                <button id="email_confirmation_btn">Confirm</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./payment2.js"></script>
