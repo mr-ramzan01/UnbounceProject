@@ -1,2 +1,14 @@
 # Unbounce Clone
 ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN6twt62jOblMBDtMVvMn7H4IKXo9IAswHyg&usqp=CAU)
+
+## Question statement
+We have given the project to clone the official site of Unbounce.
+
+## Introduction
+Hey, we are learning Full stack Web Development at Masai School. During Unit 5 on this web development journey, we got a group project with our batchmates to clone the website of Unbounce, Canadian software company which produces landing pages for websites, and is the host of the annual Call to Action Conference. We have tried to clone the website in the time span of 5 days only.
+
+## Tech Stack Used
+- Reactjs
+- CSS3
+- JavaScript
+- JSON server(Back-end)
