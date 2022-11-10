@@ -12,3 +12,6 @@ Hey, we are learning Full stack Web Development at Masai School. During Unit 5 o
 - CSS3
 - JavaScript
 - JSON server(Back-end)
+
+## Home Page
+![image](https://user-images.githubusercontent.com/108893444/201208311-56486b42-34a0-485e-926c-f1bfebfe48ba.png)
