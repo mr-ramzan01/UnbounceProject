@@ -1,5 +1,5 @@
 # Unbounce Clone
-![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN6twt62jOblMBDtMVvMn7H4IKXo9IAswHyg&usqp=CAU)
+![UnbounceLogo](https://user-images.githubusercontent.com/108893444/201209071-aa5f5583-8b4e-485a-838a-8de1bc5c4633.png)
 
 ## Question statement
 We have given the project to clone the official site of Unbounce.
