@@ -27,7 +27,7 @@ There are two types of users where the users can login through credentials each 
 
 <img width="931" alt="UnbounceLogin1" src="https://user-images.githubusercontent.com/108893444/201212051-c4beeed7-1ff3-49c7-87c9-ca6af715c99d.png">
 
-
+## Signup For Smart Copy
 This is a signup page for the smart copy where the users have to fil out all the information that are required.
 
 <img width="932" alt="UnbounceSignupSmartCopy" src="https://user-images.githubusercontent.com/108893444/201213797-5031956c-72e3-4cea-838c-ef8d60e2b5f7.png">
