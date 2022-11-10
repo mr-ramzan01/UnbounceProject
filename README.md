@@ -45,3 +45,13 @@ On Clicking on View this template it will redirect to this page where the users 
 In this page users can select their plan according to their needs and also can choose the monthly or yearly plan through this toggle button.
 
 <img width="944" alt="UnbouncePlanPage" src="https://user-images.githubusercontent.com/108893444/201215993-86b9d4ff-9ccc-45a4-a88a-d6b812796381.png">
+
+## Signup For Smart Builder
+This is a signup page for Smart Builder account users can only login when they have the plans. There users have to fill the neccessary details.
+
+<img width="947" alt="UnbouncePaymentSignup" src="https://user-images.githubusercontent.com/108893444/201218602-c9c69d4c-c8e7-4edd-ad90-bf06ab7dc56f.png">
+
+## Payment Page
+This is a payment page where the users have to fill all the personal details and Card details to pay the amount as they click on submit button a email confirmation code model will open on submiting the otp payment will be made and it will redirect to the home page.
+
+<img width="947" alt="UnbouncePaymentSignup" src="https://user-images.githubusercontent.com/108893444/201217566-8e3afd06-fecf-4c38-bd65-eee9b6e64f13.png">
