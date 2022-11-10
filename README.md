@@ -34,3 +34,21 @@ This is a Smart Builder login page
 This is a Smart Copy login page
 
 <img width="944" alt="UnbounceLoginSmartCopy" src="https://user-images.githubusercontent.com/108893444/201212900-1c14cd15-c289-4231-b635-71bf61b7ac4b.png">
+
+This is a signup page for the smart copy
+
+<img width="932" alt="UnbounceSignupSmartCopy" src="https://user-images.githubusercontent.com/108893444/201213797-5031956c-72e3-4cea-838c-ef8d60e2b5f7.png">
+
+## Templates Page
+It is template page where the users can see all the templates and able to filter the templates by two catories that are tools and type. they have more categories where the users can filter according to their needs.
+
+<img width="946" alt="UnbounceTemplatepage" src="https://user-images.githubusercontent.com/108893444/201214271-6d5609c6-219b-4a5d-abb5-11581f540abc.png">
+
+On Clicking on View this template it will redirect to this page where the users can see the whole template and if the your will click on make it your's then if user has logged in from Smart Builder account then he/she can use that template else it will redirect to the pricing and plan page.
+
+<img width="945" alt="UnbounceViewTemplate" src="https://user-images.githubusercontent.com/108893444/201215232-0f6c7a20-743b-4642-b187-651ce7e9093b.png">
+
+## Price Page
+In this page users can select their plan and also choose the montly or yearly through this toggle button.
+
+<img width="944" alt="UnbouncePlanPage" src="https://user-images.githubusercontent.com/108893444/201215993-86b9d4ff-9ccc-45a4-a88a-d6b812796381.png">
