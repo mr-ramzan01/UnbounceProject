@@ -55,3 +55,21 @@ This is a signup page for Smart Builder account, users can only login when they 
 This is a payment page where the users have to fill all the personal details and Card details to pay the amount as they click on submit button a email confirmation code model will open on submiting the otp payment will be made and it will redirect to the home page.
 
 <img width="942" alt="UnbounceBilingInfo" src="https://user-images.githubusercontent.com/108893444/201219485-104d1b48-93fc-4e07-95b8-e53708c5e4f8.png">
+
+## Roles and Responsibilities
+
+- On the first day of the project, we have planned how will we going to start and who will going to do which part.
+- We have divided the task wisely among the team members.
+- We organized a meeting daily to know the progress and lagging if any.
+
+## Challenges
+
+Main Challenge was to do the work on time since one member not participating very well and another has his exams so he was also not participating too much. We have done it wisely by distributing their work to other members.
+
+## Conclusions
+
+learning technology is a different thing and showing what you have learned is a different thing. This project has given us the confidence to showcase whatever we have learned so far. This project also help us to learn those concepts, which can be gained only by practically doing, that can’t be taught during classes. Lastly, I would like to thank all the team members of the group who coordinate remotely and let the project go smoothly.
+
+## Deployment
+We have deployed the application on netlify and the link is below
+-Here is the deplyed link : https://clinquant-dolphin-aebed7.netlify.app/
