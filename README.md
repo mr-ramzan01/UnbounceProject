@@ -64,7 +64,7 @@ This is a payment page where the users have to fill all the personal details and
 
 ## Challenges
 
-Main Challenge was to do the work on time since one member not participating very well and another has his exams so he was also not participating too much. We have done it wisely by distributing their work to other members.
+Main Challenge was to do the work on time since one member was a working professional due to this we were lagging and another has his exams so he was also not participating too much. We have done it wisely by distributing their work to other members.
 
 ## Conclusions
 
@@ -72,4 +72,17 @@ learning technology is a different thing and showing what you have learned is a 
 
 ## Deployment
 We have deployed the application on netlify and the link is below
--Here is the deplyed link : https://clinquant-dolphin-aebed7.netlify.app/
+-Here is the deplyed link : https://clinquant-dolphin-aebed7.netlify.app
+
+## 🔗 Team members
+
+### Ramzan Khan
+  - [![portfolio](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramzanformasai03@gmail.com)
+  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramzan-khan-263b87230/)
+  - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mr-ramzan01)
+
+### Akshay Pareek
+  - [![portfolio](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshaypareek.work@gmail.com)
+  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshay-pareek-377435216)
+  - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akshaypareek01)
+
