@@ -68,7 +68,7 @@ Main Challenge was to do the work on time since one member was a working profess
 
 ## Conclusions
 
-learning technology is a different thing and showing what you have learned is a different thing. This project has given us the confidence to showcase whatever we have learned so far. This project also help us to learn those concepts, which can be gained only by practically doing, that can’t be taught during classes. Lastly, I would like to thank all the team members of the group who coordinate remotely and let the project go smoothly.
+Learning technology is a different thing and showing what you have learned is a different thing. This project has given us the confidence to showcase whatever we have learned so far. This project also help us to learn those concepts, which can be gained only by practically doing, that can’t be taught during classes. Lastly, I would like to thank all the team members of the group who coordinate remotely and let the project go smoothly.
 
 ## Deployment
 We have deployed the application on netlify and the link is below
@@ -77,12 +77,20 @@ We have deployed the application on netlify and the link is below
 ## 🔗 Team members
 
 ### Ramzan Khan
-  - [![portfolio](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramzanformasai03@gmail.com)
+  - [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramzanformasai03@gmail.com)
   - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramzan-khan-263b87230/)
-  - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mr-ramzan01)
+  - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mr-ramzan01)
 
 ### Akshansh Awasthi
-  - [![portfolio](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshanshawasthi013@gmail.com)
+  - [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshanshawasthi013@gmail.com)
   - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshansh-awasthi-b39431230)
-  - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/awasthi2001)
+  - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/awasthi2001)
 
+### Rohan Patil
+- [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RPTHEBRAND)
+
+### Harsh Anand
+- [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harsh1518)
+
+### Dheeraj Joshi
+- [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dheeraj-2205)
