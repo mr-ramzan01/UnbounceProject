@@ -32,6 +32,11 @@ This is a signup page for the smart copy where the users have to fil out all the
 
 <img width="932" alt="UnbounceSignupSmartCopy" src="https://user-images.githubusercontent.com/108893444/201213797-5031956c-72e3-4cea-838c-ef8d60e2b5f7.png">
 
+## Blog Page
+This is a blog page where the users can see all the blog realted to site and also we have provided a pagination on blog page.
+
+<img width="949" alt="UnbounceBlogPage" src="https://user-images.githubusercontent.com/108893444/201317003-4fc077cc-e184-467f-805a-4e4ab806150f.png">
+
 ## Templates Page
 It is template page where the users can see all the templates and able to filter the templates by two categories that are tools and type. They have more categories where the users can filter according to their needs.
 
