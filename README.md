@@ -92,6 +92,8 @@ We have deployed the application on netlify and the link is below
   - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/awasthi2001)
 
 ### Rohan Patil
+- [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rohanpatil8977@gmail.com)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohan-patil-b42434230)
 - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RPTHEBRAND)
 
 ### Harsh Anand
