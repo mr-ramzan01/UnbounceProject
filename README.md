@@ -83,7 +83,7 @@ We have deployed the application on netlify and the link is below
 
 ### Ramzan Khan
   - [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramzanformasai03@gmail.com)
-  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramzan-khan-263b87230/)
+  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramzan01/)
   - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mr-ramzan01)
 
 ### Akshansh Awasthi
