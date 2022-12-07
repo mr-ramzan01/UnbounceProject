@@ -7,7 +7,7 @@ document.getElementById("submit_signup_btn").addEventListener("click",() => {
         password: document.getElementById("password").value,
     } 
     console.log(signup_user_details);
-    fetch('https://fake-server-app-by-me.herokuapp.com/signUpUsers', {
+    fetch('https://dackend-data.onrender.com/signUpUsers', {
         method:"POST",
         body: JSON.stringify(signup_user_details),
         headers: {
@@ -25,7 +25,7 @@ document.getElementById("submit_signup_btn2").addEventListener("click",() => {
         password: document.getElementById("password").value,
     } 
     console.log(signup_user_details);
-    fetch('https://fake-server-app-by-me.herokuapp.com/signUpUsers', {
+    fetch('https://dackend-data.onrender.com/signUpUsers', {
         method:"POST",
         body: JSON.stringify(signup_user_details),
         headers: {

@@ -5,7 +5,7 @@ document.getElementById("classbtn").addEventListener('click', async() => {
 
     console.log(email,password);
     try {
-        let data = await fetch(`https://fake-server-app-by-me.herokuapp.com/signUpUsers`);
+        let data = await fetch(`https://dackend-data.onrender.com/signUpUsers`);
         let data2 = await data.json();
         let flag = false;
         console.log(data2,flag);

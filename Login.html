@@ -1,94 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Copy - AI Copy Assistant | Unbounce</title>
-    <link rel="stylesheet" href="Login.css">
-</head>
-<body>
+    <link rel="stylesheet" href="Login.css" />
+  </head>
+  <body>
     <!-- start login part -->
-    <div id = Bigcontainer>
-        <div class = container>
-            <div class="Ist-container">
-                <img src="https://d9hhrg4mnvzow.cloudfront.net/unbounce.com/product-selector/7089096e-d22ffb13-logo-unbounce.svg" alt="unbounce">
-                <p>Smart Copy</p>
-            </div>
-            <div id="inside-container">
-                <form>
-                    <label for=""><h3>Email</h3>
-                        <input type="email" placeholder="Email" id = Email required>
-                    </label>
-                    
-                    <label for=""><h3>Password</h3>
-                        <input type="password" placeholder="Password" id = "diffPassword" required>
-                    </label>
-                    <div class = small-container>
-                        <div class = Verysmalll-container>
-                            <p style = "color: blue; cursor: pointer;">Forgot your password</p>
-                        </div>
-                    </div>
-                    <div>
-                        <input type="submit" id = "button" value = "Sign In">
-                    </div>
-                    
-                </form>
-                <div>
-                    <p style = "color : blue; cursor: pointer;" id="login_new_user">No account yet? Sign up now!</p>
-                <p style = "color : rgba(67, 58, 58, 0.947)">By signing up you agree to the following  <span style="text-decoration: underline;">Terms & Conditions</span> and <span style="text-decoration: underline;"> Privacy Policy </span></p>   
-                </div>                
-                
-            </div>
-            
-            
+    <div id="Bigcontainer">
+      <div class="container">
+        <div class="Ist-container">
+          <img
+            src="https://d9hhrg4mnvzow.cloudfront.net/unbounce.com/product-selector/7089096e-d22ffb13-logo-unbounce.svg"
+            alt="unbounce"
+          />
+          <p>Smart Copy</p>
         </div>
-        <div id = container>
-            <img src="https://d9hhrg4mnvzow.cloudfront.net/smartcopy.ubpages.com/login/39f702a6-sc-section-image-3_10mi0ru000000000000000.jpg" alt="">
+        <div id="inside-container">
+          <form>
+            <label for=""
+              ><h3>Email</h3>
+              <input type="email" placeholder="Email" id="Email" required />
+            </label>
+
+            <label for=""
+              ><h3>Password</h3>
+              <input
+                type="password"
+                placeholder="Password"
+                id="diffPassword"
+                required
+              />
+            </label>
+            <div class="small-container">
+              <div class="Verysmalll-container">
+                <p style="color: blue; cursor: pointer">Forgot your password</p>
+              </div>
+            </div>
+            <div>
+              <input type="submit" id="button" value="Sign In" />
+            </div>
+          </form>
+          <div>
+            <p style="color: blue; cursor: pointer" id="login_new_user">
+              No account yet? Sign up now!
+            </p>
+            <p style="color: rgba(67, 58, 58, 0.947)">
+              By signing up you agree to the following
+              <span style="text-decoration: underline">Terms & Conditions</span>
+              and
+              <span style="text-decoration: underline"> Privacy Policy </span>
+            </p>
+          </div>
         </div>
+      </div>
+      <div id="container">
+        <img
+          src="https://d9hhrg4mnvzow.cloudfront.net/smartcopy.ubpages.com/login/39f702a6-sc-section-image-3_10mi0ru000000000000000.jpg"
+          alt=""
+        />
+      </div>
     </div>
     <!--  end login part -->
-</body>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </html>
 <script>
-    document.getElementById("login_new_user").addEventListener("click", () => {
-        window.location.href = "SignupPage.html"
-    })
-    document.getElementById("button").addEventListener("click" , async (event) => {
-        event.preventDefault() ;
-        var obj = {
-          Email: document.getElementById("Email").value,
-          diffPassword: document.getElementById("diffPassword").value,
-        };
+  document.getElementById("login_new_user").addEventListener("click", () => {
+    window.location.href = "SignupPage.html";
+  });
+  document.getElementById("button").addEventListener("click", async (event) => {
+    event.preventDefault();
+    var obj = {
+      Email: document.getElementById("Email").value,
+      diffPassword: document.getElementById("diffPassword").value,
+    };
 
-        if (obj.Email === "" && obj.diffPassword === ""){
-            alert("Email and password required");
-            return;
-          } 
+    if (obj.Email === "" && obj.diffPassword === "") {
+      alert("Email and password required");
+      return;
+    }
 
-        try {
-            
-            
-            const res = await axios.get("https://fake-server-app-by-me.herokuapp.com/profile")
-            let profileData = await res.data;
-            let flag = false;
-            for (let user of profileData){
-              if (user.email === obj.Email && user.password == obj.diffPassword){
-                flag = true;
-                break;
-                
-              }
-            }
-            if(flag == true){
-                alert("Login Successful")
-                location.href="./index.html"
-            }else{
-                alert("Invalid user")
-            }
-        }catch(e){
-            console.log(e);
+    try {
+      const res = await axios.get("https://dackend-data.onrender.com/profile");
+      let profileData = await res.data;
+      let flag = false;
+      for (let user of profileData) {
+        if (user.email === obj.Email && user.password == obj.diffPassword) {
+          flag = true;
+          break;
         }
-    })
-
+      }
+      if (flag == true) {
+        alert("Login Successful");
+        location.href = "./index.html";
+      } else {
+        alert("Invalid user");
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  });
 </script>
