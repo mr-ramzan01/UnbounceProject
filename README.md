@@ -83,7 +83,7 @@ We have deployed the application on netlify and the link is below
 
 ### Ramzan Khan
   - [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramzanformasai03@gmail.com)
-  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramzan-khan-263b87230/)
+  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramzan01/)
   - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mr-ramzan01)
 
 ### Akshansh Awasthi
@@ -92,10 +92,16 @@ We have deployed the application on netlify and the link is below
   - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/awasthi2001)
 
 ### Rohan Patil
+- [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rohanpatil8977@gmail.com)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohan-patil-b42434230)
 - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RPTHEBRAND)
 
 ### Harsh Anand
+- [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harsh790909@gmail.com)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-anand-750510234)
 - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harsh1518)
 
 ### Dheeraj Joshi
+- [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:djsays124@gmail.com)
 - [![github](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dheeraj-2205)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dheeraj-joshi-b07916231/)
